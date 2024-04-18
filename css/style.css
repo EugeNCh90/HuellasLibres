@@ -160,6 +160,7 @@ header nav ul a{
 .titulotexto2{
     margin-left: 25px;
     text-align: justify;
+    word-spacing: -1px;
 }
 
 .leer2 {
@@ -201,7 +202,7 @@ header nav ul a{
     margin: 50px 300px 50px 300px;
     padding: 0 50px 0 50px;
     background-color: rgba(255, 255, 255, 0.522);
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504);
 }
 .grid-item4 img{
@@ -352,7 +353,7 @@ form .enviar{
 
     .mensaje h2{
         padding: 0 20rem 0 20rem;
-        margin: 0 0 50px;
+        margin-bottom: 50px;
     }
     
     .mensaje h3 {
@@ -360,7 +361,6 @@ form .enviar{
     }
 
     #grid-container {
-        display: grid;
             grid-template-rows: 700px 400px 400px;
             column-gap: 10px;
     }
@@ -435,18 +435,19 @@ form .enviar{
     .bienvenidos a img{
         width: 35px;
         height: 35px;
-        margin-top: 80px;
-        filter: drop-shadow( 1px 1px 4px rgb(46, 46, 46));
     }
 
     #grid-container {
-        display: grid;
             grid-template-rows: 650px 390px 390px;
             column-gap: 7px;
     }
 
     .mensaje h2{
         font-size: 40px;
+    }
+
+    .mensaje p{
+        padding: 0 9rem 0 9rem;
     }
 
     .grid-item2 img{
@@ -518,10 +519,13 @@ form .enviar{
     }
 
     #grid-container {
-        display: grid;
-            grid-template-rows: 630px 350px 350px;
-            grid-template-columns: 49,9% 49,9%;
-            column-gap: 5px;
+        grid-template-rows: 630px 350px 350px;
+        grid-template-columns: 49,9% 49,9%;
+        column-gap: 5px;
+    }
+
+    .mensaje h2 {
+        font-size: 38px;
     }
 
     .mensaje p {
@@ -552,6 +556,7 @@ form .enviar{
 
     .titulotexto3{
         font-size: 12px;
+        word-spacing: -1px;
     }
 
     .titulo4{
@@ -576,7 +581,7 @@ form .enviar{
 
     .bienvenidos{
         font-size: 26px;
-        margin-top: 30%;
+        margin-top: 20%;
     }
 
     #grid-container {
@@ -588,11 +593,13 @@ form .enviar{
 
     .mensaje h2{
         font-size: 35px;
-        padding: 0 16rem 0 16rem;
+        padding: 0 15rem 0 15rem;
     }
 
     .mensaje h3 {
+        padding: 0 15rem 0 15rem;
         font-size: 20px;
+        margin: 30px 0 100px;
     }
 
     .grid-item2 {
@@ -648,16 +655,6 @@ form .enviar{
     }
 }
 
-@media screen and (max-width: 989px){
-
-    .mensaje h3 {
-        padding: 0 15rem 0 15rem;
-        font-size: 20px;
-        margin: 30px 0 100px;
-    }
-
-}
-
 @media screen and (max-width: 818px){
 
     #grid-container {
@@ -710,6 +707,7 @@ form .enviar{
 
     #grid-container {
         grid-template-rows: 500px 300px 300px;
+        column-gap: 3px;
     }
 
     .mensaje h2{
@@ -732,12 +730,610 @@ form .enviar{
     }
 
     .grid-item4 {
-        margin: 30px 200px 30px 200px;
+        margin: 30px 180px 30px 180px;
         padding: 0 20px 0 20px;
     }
 
     .grid-item4 img{
         height: 250px;
         width: 250px;
+    }
+}
+
+@media screen and (max-width: 745px){
+    
+    .mensaje p {
+        padding: 0 10rem 0 10rem;
+    }
+
+    .grid-item2 {
+        padding: 0 10px 0 10px;
+    }
+
+    .titulotexto2 {
+        font-size: 9px;
+    }
+
+    .grid-item3 {
+        padding: 0 10px 0 10px;
+    }
+
+    .titulotexto3 {
+        font-size: 9px;
+    }
+
+    .grid-item4 {
+        margin: 30px 170px 30px 170px;
+    }
+
+    .titulotexto4 {
+        font-size: 9px;
+    }
+
+}
+
+@media screen and (max-width: 742px){
+
+    header {
+        min-height: 60vh;
+    }
+
+    .logo {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    header nav ul a{
+        font-size: 10px;
+    }
+
+    .bienvenidos{
+        font-size: 26px;
+        margin-top: 40%;
+    }
+
+    .bienvenidos a img{
+        margin-top: 45px;
+    }
+
+    .mensaje h2 {
+        padding: 0 6rem 0 6rem;
+    }
+
+}
+
+@media screen and (max-width: 704px){
+
+    #grid-container {
+        grid-template-rows: 500px 280px 280px;
+        column-gap: 2px;
+    }
+
+    .mensaje h2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 0 5rem 0 5rem;
+    }
+
+    .mensaje h3 {
+        font-size: 15px;
+    }
+
+    .grid-item2 {
+        padding: 0 8px 0 8px;
+    }
+
+    .grid-item2 img{
+        height: 275px;
+        width: 185px;
+    }
+
+    .titulotexto2 {
+        font-size: 8px;
+    }
+
+    .grid-item3 {
+        padding: 0 8px 0 8px;
+    }
+
+    .grid-item3 img{
+        height: 269px;
+        width: 200px;
+    }
+    .titulotexto3 {
+        font-size: 8px;
+        word-spacing: 0px;
+    }
+
+    .grid-item4 {
+        margin: 30px 150px 30px 150px;
+    }
+
+    .grid-item4 img{
+        height: 240px;
+        width: 230px;
+    }
+
+    .titulotexto4 {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 645px){
+
+    #grid-container {
+        grid-template-rows: 500px 250px 250px 250px;
+    }
+
+    .mensaje h2 {
+        margin-top: 0;
+    }
+
+    .mensaje h3 {
+        padding: 0 10rem 0 10rem;
+    }
+
+    .grid-item2 {
+        grid-column: 1/3;
+        margin: 0 120px 20px 120px;
+    }
+
+    .grid-item2 img {
+        height: 250px;
+        width: 185px;
+    }
+
+    .titulo2 {
+        margin-bottom: 8px;
+    }
+
+    .grid-item3 {
+        grid-column: 1/3;
+        margin: 12.5px 120px 12.5px 120px;
+    }
+
+    .titulo3 {
+        margin-bottom: 8px;
+    }
+
+    .grid-item3 img {
+        height: 240px;
+        width: 190px;
+    }
+
+    .grid-item4 {
+        margin: 12.5px 120px 12.5px 120px;
+        padding: 0 8px 0 8px;
+    }
+
+    .titulo4 {
+        margin-bottom: 8px;
+        text-align: left;
+    }
+
+    .grid-item4 img{
+        height: 240px;
+        width: 200px;
+    }
+
+    .by {
+        font-size: 13px;
+    }
+
+    footer nav {
+        margin: 10px 0 10px;
+    }
+
+    footer nav ul li{
+        font-size: 13px;
+        margin: 5px;
+    }
+
+    .redes p {
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    
+    footer img {
+        width: 20px;
+        height: 20px;
+        margin: 10px 7px 10px 7px;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    header nav{
+        display: none;
+    }
+
+    .mensaje h2 {
+        margin-bottom: 25px;
+        padding: 0 5rem 0 5rem;
+    }
+
+    .mensaje p {
+        padding: 0 8rem 0 8rem;
+    }
+
+    .mensaje h3 {
+        padding: 0 8rem 0 8rem;
+    }
+
+    .grid-item2 {
+        margin: 0 110px 20px 110px;
+    }
+
+    .grid-item3 {
+        margin: 12.5px 110px 12.5px 110px;
+    }
+
+    .grid-item4 {
+        margin: 12.5px 110px 12.5px 110px;
+        padding: 0 8px 0 8px;
+    }
+}
+
+@media screen and (max-width: 526px){
+
+    .grid-item2 {
+        margin: 0 100px 20px 100px;
+    }
+
+    .titulo2 {
+        font-size: 9px;
+    }
+
+    .grid-item2 img {
+        height: 240px;
+        width: 175px;
+    }
+
+    .grid-item3 {
+        margin: 12.5px 100px 12.5px 100px;
+    }
+    .titulo3 {
+        font-size: 9px;
+    }
+
+    .grid-item3 img {
+        height: 230px;
+        width: 180px;
+    }
+
+    .grid-item4 {
+        margin: 12.5px 100px 12.5px 100px;
+    }
+
+    .titulo4 {
+        font-size: 9px;
+    }
+
+    .grid-item4 img{
+        height: 230px;
+        width: 290px;
+    }
+
+    .by {
+        font-size: 11px;
+    }
+
+    footer nav ul li{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 499px){
+    .logo {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .bienvenidos{
+        font-size: 22px;
+        margin-top: 50%;
+    }
+
+    .bienvenidos a img{
+        margin-top: 80px;
+    }
+    
+    .mensaje h2 {
+        font-size: 25px;
+        padding: 0 2rem 0 2rem;
+    }
+
+    .mensaje p {
+        padding: 0 5rem 0 5rem;
+        margin-bottom: 80px;
+    }
+
+    .grid-item2 {
+        margin: 5px 80px 20px 80px;
+    }
+
+    .grid-item2 img {
+        height: 230px;
+        width: 170px;
+    }
+
+    .grid-item3 {
+        margin: 12.5px 80px 12.5px 80px;
+    }
+
+    .grid-item4 {
+        margin: 12.5px 80px 12.5px 80px;
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    .mensaje h2 {
+        padding: 0 2rem 0 2rem;
+    }
+
+    .mensaje p {
+        padding: 0 3rem 0 3rem;
+        margin-bottom: 50px;
+    }
+
+    .grid-item2 {
+        margin: 5px 70px 20px 70px;
+    }
+
+    .grid-item2 img {
+        height: 225px;
+        width: 160px;
+    }
+
+    .grid-item3 {
+        margin: 12.5px 70px 12.5px 70px;
+    }
+
+    .grid-item4 {
+        margin: 12.5px 70px 12.5px 70px;
+    }
+
+    .by {
+        font-size: 10px;
+    }
+
+    footer nav ul li{
+        font-size: 10px;
+    }
+
+    .redes p {
+        font-size: 9px;
+    }
+    
+    footer img {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 432px){
+
+    .mensaje h3 {
+        padding: 0 5rem 0 5rem;
+    }
+
+    .grid-item2 {
+        margin: 12px 60px 20px 60px;
+    }
+
+    .grid-item3 {
+        margin: 16px 60px 16px 60px;
+    }
+
+    .grid-item3 img {
+        height: 225px;
+        width: 165px;
+    }
+
+    .grid-item4 {
+        margin: 16px 60px 16px 60px;
+    }
+
+    .grid-item4 img{
+        height: 225px;
+        width: 165px;
+    }
+
+    .by {
+        font-size: 9px;
+        margin-left: 2%;
+    }
+
+    .corazon {
+        height: 10px;
+        width: 10px;
+    }
+}
+
+@media screen and (max-width: 432px){
+
+    .bienvenidos{
+        font-size: 18px;
+        margin-top: 60%;
+    }
+
+    .bienvenidos a img{
+        margin-top: 100px;
+    }
+
+    .mensaje h2 {
+        font-size: 20px;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.355);
+    }
+
+    .mensaje p {
+        background-color: #0000003c;
+        padding: 0 3rem 0 3rem;
+    }
+
+    .titulo2 {
+        font-size: 8px;
+    }
+
+    .titulotexto2 {
+        font-size: 7px;
+    }
+
+    .titulo3 {
+        font-size: 8px;
+    }
+
+    .titulotexto3 {
+        font-size: 7px;
+        word-spacing: -1px;
+    }
+
+    .titulo4 {
+        font-size: 8px;
+    }
+
+    .titulotexto4 {
+        font-size: 7px;
+        word-spacing: -1px;
+    }
+    
+    .by {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer nav ul li{
+        font-size: 9px;
+    }
+
+    .redes p {
+        font-size: 9px;
+        margin-top: 10px;
+    }
+    
+    footer img {
+        width: 15px;
+        height: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    #grid-container {
+        grid-template-rows: 350px 250px 250px 250px;
+    }
+
+    .logomain{
+        height: 100px;
+        width: 100px;
+    }
+
+    .mensaje p {
+        font-size: 8px;
+        padding: 0 2rem 0 2rem;
+    }
+
+    .grid-item2 {
+        margin: 45px 50px 15px 50px;
+    }
+
+    .grid-item2 img {
+        height: 195px;
+        width: 140px;
+    }
+
+    .titulo2 {
+        font-size: 7px;
+    }
+
+    .titulotexto2 {
+        font-size: 6.5px;
+    }
+
+    .grid-item3 {
+        margin: 45px 50px 15px 50px;
+    }
+
+    .titulo3 {
+        font-size: 7px;
+    }
+
+    .titulotexto3 {
+        font-size: 6.5px;
+    }
+
+    .grid-item3 img {
+        height: 195px;
+        width: 145px;
+    }
+
+    .grid-item4 {
+        margin: 45px 50px 15px 50px;
+    }
+
+    .titulo4 {
+        font-size: 7px;
+    }
+
+    .titulotexto4 {
+        font-size: 6.5px;
+    }
+    
+    .grid-item4 img{
+        height: 195px;
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 350px){
+
+    .mensaje h2 {
+        font-size: 15px;
+    }
+    .mensaje p {
+        font-size: 7px;
+    }
+
+    .mensaje h3 {
+        font-size: 12px;
+    }
+
+    #grid-container {
+        grid-template-rows: 300px 250px 250px 250px;
+    }
+
+    .grid-item2 {
+        margin: 45px 30px 15px 30px;
+    }
+
+    .grid-item3 {
+        margin: 45px 30px 15px 30px;
+    }
+
+    .grid-item4 {
+        margin: 45px 30px 15px 30px;
+    }
+
+    .by {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    footer nav ul li{
+        font-size: 9px;
+        margin-left: 5px;
+    }
+
+    .redes p {
+        font-size: 6px;
+        margin-top: 10px;
+    }
+    
+    footer img {
+        width: 10px;
+        height: 10px;
     }
 }
