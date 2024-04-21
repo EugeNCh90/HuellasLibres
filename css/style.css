@@ -266,6 +266,27 @@ footer img {
 
 /**------PÁGINA 'CONTACTO'------*/
 
+.flechas {
+    font-size: 45px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 20%;
+    color: white;
+    text-shadow: 1px 1px 25px black;
+}
+
+.flechas h1 {
+    display: none;
+}
+
+.flechas a img{
+    width: 65px;
+    height: 65px;
+    margin-top: 300px;
+    filter: drop-shadow( 1px 1px 4px rgb(46, 46, 46));
+}
+
 .h2-contacto {
     font-family: "Shantell sans", cursive;
     font-size: 45px;
@@ -279,7 +300,9 @@ footer img {
     width: 100%;
     background-image: url(../img/v894-kul-02-e.jpg);
     background-repeat: no-repeat;
-    background-size: 210vh 120vh;
+    background-size: 210vh 250vh;
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -290,12 +313,11 @@ form {
     width: 800px;
     height: 700px;
 	border-radius: 10px;
-    border-style: groove;
-    border-color: rgb(45, 110, 175);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.303);
 }
 
 form input{
@@ -324,10 +346,10 @@ form .resetear{
         width: 100%;
         padding: 8px 16px;
         margin-top: 10px;
-        border: 1px solid #000;
+        border: 2px solid #000;
         border-radius:5px;
-        color:#fff;
-        background-color:#000;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.396);
 } 
 
 form .enviar{
@@ -413,7 +435,6 @@ form .enviar{
     .titulotexto4{
         font-size: 15px;
     }
-
 }
 
 @media screen and (max-width: 1200px){
@@ -691,6 +712,7 @@ form .enviar{
 
     .redes{
         flex-direction: column;
+        margin-top: 5px;
     }
 
     .redes p {
@@ -1337,3 +1359,153 @@ form .enviar{
         height: 10px;
     }
 }
+
+/**------PÁGINA 'CONTACTO'------*/
+
+@media screen and (max-width: 1200px){
+    .flechas a img{
+        margin-top: 400px;
+        width: 35px;
+        height: 35px;
+        }
+    }
+
+@media screen and (max-width: 990px){
+
+    .flechas a img{
+        margin-top: 300px;
+        width: 35px;
+        height: 35px;
+        }
+    }
+
+@media screen and (max-width: 850px){
+
+    form {
+        width: 600px;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 630px){
+
+    form {
+        width: 500px;
+        height: 700px;
+    }
+
+    form input{
+        width: 300px;
+    }
+    
+    form textarea{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    form {
+        width: 400px;
+        height: 600px;
+    }
+
+    form input{
+        width: 300px;
+        height: 40px;
+    }
+
+    form textarea {
+        margin: 8px 0 30px;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .flechas a img{
+        margin-top: 350px;
+    }
+
+    form {
+        width: 300px;
+        height: 600px;
+    }
+
+    .h2-contacto {
+        font-size: 35px;
+    }
+
+    form input{
+        width: 250px;
+        height: 40px;
+    }
+
+    form textarea {
+        width: 250px;
+        margin: 8px 0 20px;
+    }
+}
+
+
+/* .flechas a img{
+    width: 65px;
+    height: 65px;
+    margin-top: 300px;
+    filter: drop-shadow( 1px 1px 4px rgb(46, 46, 46));
+}
+
+.h2-contacto {
+    font-family: "Shantell sans", cursive;
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    margin: 30px;
+}
+
+#main-contacto {
+    height: 800px;
+    width: 100%;
+    background-image: url(../img/v894-kul-02-e.jpg);
+    background-repeat: no-repeat;
+    background-size: 210vh 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.51);
+    width: 800px;
+    height: 700px;
+	border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.303);
+}
+
+form input{
+    height: 50px;
+    width: 500px;
+	padding: 3px 10px;
+	border: 1px solid #f6f6f6;
+	border-radius: 3px;
+	background-color:#f6f6f6;
+	margin: 8px 0;
+	display: inline-block;
+    align-items: center;
+}
+
+form textarea{
+    width: 500px;
+    height: 150px;
+    border: #f6f6f6 1px solid;
+    border-radius: 3px;
+    background-color:#f6f6f6;			
+    margin: 8px 0 50px;
+    display:block;
+}
+
+c
+} */
