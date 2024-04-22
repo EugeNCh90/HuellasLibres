@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 /**------RESET------*/
+
 .inter-regular {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -31,50 +33,42 @@
 
 header {
     background-image: url(../img/iStock-1369171053.jpg);
-    width: 100%;
     height: 500px;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
-    background-color: transparent;
-    width: 100%;
     display: flex;
+    flex-direction: column;
 }
 
 .logo{
-    height: 15rem;
-    width: 15rem;
+    height: 10rem;
+    width: 10rem;
 }
 
-header nav ul li{
-    list-style: none;
-    display: inline-block;
-}
-
-header nav ul a{
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    display: inline-block;
-    margin: 60px 20px 40px 30px;
-    text-shadow: 1px 1px 5px black;
+.navbar-nav .nav-link {
+    color: white !important;
+    text-align: center;
 }
 
 .bienvenidos{
-    font-size: 45px;
     position: absolute;
     text-align: center;
     width: 100%;
-    margin-top: 20%;
+    margin-top: 400px;
+}
+
+.bienvenidos h1 {
+    font-size: 75px;
     color: white;
     text-shadow: 1px 1px 25px black;
 }
 
 .bienvenidos a img{
-    width: 65px;
-    height: 65px;
-    margin-top: 100px;
+    width: 55px;
+    height: 55px;
+    margin-top: 60px;
     filter: drop-shadow( 1px 1px 4px rgb(46, 46, 46));
 }
 
@@ -308,7 +302,7 @@ footer img {
     align-items: center;
 }
 
-form {
+.formulario {
     background-color: rgba(255, 255, 255, 0.51);
     width: 800px;
     height: 700px;
@@ -320,7 +314,7 @@ form {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.303);
 }
 
-form input{
+.formulario input{
     height: 50px;
     width: 500px;
 	padding: 3px 10px;
@@ -332,7 +326,7 @@ form input{
     align-items: center;
 }
 
-form textarea{
+.formulario textarea{
     width: 500px;
     height: 150px;
     border: #f6f6f6 1px solid;
@@ -342,7 +336,7 @@ form textarea{
     display:block;
 }
 
-form .resetear{
+.formulario .resetear{
         width: 100%;
         padding: 8px 16px;
         margin-top: 10px;
@@ -352,7 +346,7 @@ form .resetear{
         background-color: rgba(255, 255, 255, 0.396);
 } 
 
-form .enviar{
+.formulario .enviar{
     width: 100%;
     padding: 8px 16px;
     margin-top: 10px;
@@ -366,12 +360,6 @@ form .enviar{
 /*!--- MEDIA QUERIES ---*/
 
 @media screen and (max-width: 1400px){
-
-    header nav ul a{
-        font-size: 13px;
-        font-weight: 500;
-        margin: 60px 10px 40px 20px;
-    }
 
     .mensaje h2{
         padding: 0 20rem 0 20rem;
@@ -438,15 +426,6 @@ form .enviar{
 }
 
 @media screen and (max-width: 1200px){
-
-    header {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    header nav ul a{
-        margin: 0 20px 40px 30px;
-    }
 
     .bienvenidos{
         font-size: 30px;
@@ -523,10 +502,6 @@ form .enviar{
         width: 10rem;
     }
 
-    header nav ul a{
-        margin: 0 10px 40px 10px;
-    }
-
     .bienvenidos{
         font-size: 30px;
         margin-top: 27%;
@@ -594,11 +569,21 @@ form .enviar{
     }
 }
 
-@media screen and (max-width: 989px){
-
-    header {
-        min-height: 80vh;
+@media screen and (max-width: 991px){
+    .bienvenidos h1{
+        font-size: 60px;
+        margin-top: 250px;
     }
+    
+    .bienvenidos a img{
+        width: 35px;
+        height: 35px;
+        margin-top: 20px;
+        filter: drop-shadow( 1px 1px 4px rgb(46, 46, 46));
+    }
+}
+
+@media screen and (max-width: 989px){
 
     .bienvenidos{
         font-size: 26px;
@@ -677,6 +662,11 @@ form .enviar{
 }
 
 @media screen and (max-width: 818px){
+
+    .bienvenidos h1{
+        font-size: 60px;
+        margin-top: 300px;
+    }
 
     #grid-container {
         grid-template-rows: 500px 320px 320px;
@@ -795,28 +785,6 @@ form .enviar{
 }
 
 @media screen and (max-width: 742px){
-
-    header {
-        min-height: 60vh;
-    }
-
-    .logo {
-        height: 10rem;
-        width: 10rem;
-    }
-
-    header nav ul a{
-        font-size: 10px;
-    }
-
-    .bienvenidos{
-        font-size: 26px;
-        margin-top: 40%;
-    }
-
-    .bienvenidos a img{
-        margin-top: 45px;
-    }
 
     .mensaje h2 {
         padding: 0 6rem 0 6rem;
@@ -965,9 +933,9 @@ form .enviar{
 
 @media screen and (max-width: 600px){
 
-    header nav{
+    /*header nav{
         display: none;
-    }
+    }*/
 
     .mensaje h2 {
         margin-bottom: 25px;
@@ -993,6 +961,14 @@ form .enviar{
     .grid-item4 {
         margin: 12.5px 110px 12.5px 110px;
         padding: 0 8px 0 8px;
+    }
+}
+
+@media screen and (max-width: 570px){
+
+    .bienvenidos h1{
+        font-size: 50px;
+        margin-top: 350px;
     }
 }
 
@@ -1049,15 +1025,6 @@ form .enviar{
     .logo {
         height: 10rem;
         width: 10rem;
-    }
-
-    .bienvenidos{
-        font-size: 22px;
-        margin-top: 50%;
-    }
-
-    .bienvenidos a img{
-        margin-top: 80px;
     }
     
     .mensaje h2 {
@@ -1175,13 +1142,9 @@ form .enviar{
 
 @media screen and (max-width: 432px){
 
-    .bienvenidos{
-        font-size: 18px;
-        margin-top: 60%;
-    }
-
-    .bienvenidos a img{
-        margin-top: 100px;
+    .bienvenidos h1{
+        font-size: 40px;
+        margin-top: 370px;
     }
 
     .mensaje h2 {
@@ -1373,7 +1336,7 @@ form .enviar{
 @media screen and (max-width: 990px){
 
     .flechas a img{
-        margin-top: 300px;
+        margin-top: 400px;
         width: 35px;
         height: 35px;
         }
@@ -1381,7 +1344,7 @@ form .enviar{
 
 @media screen and (max-width: 850px){
 
-    form {
+    .formulario {
         width: 600px;
         height: 700px;
     }
@@ -1389,33 +1352,37 @@ form .enviar{
 
 @media screen and (max-width: 630px){
 
-    form {
+    .formulario {
         width: 500px;
         height: 700px;
     }
 
-    form input{
+    .formulario input{
         width: 300px;
     }
     
-    form textarea{
+    .formulario textarea{
         width: 300px;
     }
 }
 
 @media screen and (max-width: 500px){
 
-    form {
+    .flechas a img{
+        margin-top: 550px;
+    }
+
+    .formulario {
         width: 400px;
         height: 600px;
     }
 
-    form input{
+    .formulario input{
         width: 300px;
         height: 40px;
     }
 
-    form textarea {
+    .formulario textarea {
         margin: 8px 0 30px;
     }
 }
@@ -1423,10 +1390,10 @@ form .enviar{
 @media screen and (max-width: 400px){
 
     .flechas a img{
-        margin-top: 350px;
+        margin-top: 550px;
     }
 
-    form {
+    .formulario {
         width: 300px;
         height: 600px;
     }
@@ -1435,77 +1402,13 @@ form .enviar{
         font-size: 35px;
     }
 
-    form input{
+    .formulario input{
         width: 250px;
         height: 40px;
     }
 
-    form textarea {
+    .formulario textarea {
         width: 250px;
         margin: 8px 0 20px;
     }
 }
-
-
-/* .flechas a img{
-    width: 65px;
-    height: 65px;
-    margin-top: 300px;
-    filter: drop-shadow( 1px 1px 4px rgb(46, 46, 46));
-}
-
-.h2-contacto {
-    font-family: "Shantell sans", cursive;
-    font-size: 45px;
-    text-align: center;
-    color: black;
-    margin: 30px;
-}
-
-#main-contacto {
-    height: 800px;
-    width: 100%;
-    background-image: url(../img/v894-kul-02-e.jpg);
-    background-repeat: no-repeat;
-    background-size: 210vh 120vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-form {
-    background-color: rgba(255, 255, 255, 0.51);
-    width: 800px;
-    height: 700px;
-	border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.303);
-}
-
-form input{
-    height: 50px;
-    width: 500px;
-	padding: 3px 10px;
-	border: 1px solid #f6f6f6;
-	border-radius: 3px;
-	background-color:#f6f6f6;
-	margin: 8px 0;
-	display: inline-block;
-    align-items: center;
-}
-
-form textarea{
-    width: 500px;
-    height: 150px;
-    border: #f6f6f6 1px solid;
-    border-radius: 3px;
-    background-color:#f6f6f6;			
-    margin: 8px 0 50px;
-    display:block;
-}
-
-c
-} */
