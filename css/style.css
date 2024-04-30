@@ -51,7 +51,7 @@ header {
     color: white !important;
     text-align: center;
 }
-
+ 
 .bienvenidos{
     position: absolute;
     text-align: center;
@@ -155,10 +155,6 @@ header {
     margin-left: 25px;
     text-align: justify;
     word-spacing: -1px;
-}
-
-.leer2 {
-    margin-left: 10px;
 }
 
 .grid-item3 {

@@ -1,0 +1,60 @@
+header {
+    background-image: url(../img/iStock-1369171053.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    nav {
+        div {
+            a {
+                .logo {
+                    height: 10rem;
+                    width: 10rem;
+                }
+            }
+            /*button {
+            }*/
+            div {
+                ul {
+                    li {
+                        a {
+                            color: white !important;
+                            text-align: center;
+                        }
+                    }
+                }
+                /*form {
+                    input {}
+
+                    button {}
+                }*/
+            }
+        }
+    }
+
+    .bienvenidos {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        margin-top: 400px;
+
+        h1 {
+            font-size: 75px;
+            color: white;
+            text-shadow: 1px 1px 25px black;
+        }
+
+        a {
+            img {
+                width: 55px;
+                height: 55px;
+                margin-top: 60px;
+                filter: drop-shadow(1px 1px 4px rgb(46, 46, 46));
+            }
+        }
+    }
+}
