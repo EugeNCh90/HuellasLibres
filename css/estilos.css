@@ -28,22 +28,16 @@ header {
   background-attachment: fixed;
   min-height: 100vh;
   display: flex;
+  justify-content: none;
+  align-items: none;
   flex-direction: column; }
-  header nav div {
-    /*button {
-            }*/ }
-    header nav div a .logo {
-      height: 10rem;
-      width: 10rem; }
-    header nav div div {
-      /*form {
-                    input {}
-
-                    button {}
-                }*/ }
-      header nav div div ul li a {
-        color: white !important;
-        text-align: center; }
+  header nav div a .logo {
+    height: 10rem;
+    width: 10rem; }
+  header nav div div ul li a {
+    color: white !important;
+    text-align: center;
+    margin: 20px; }
   header .bienvenidos {
     position: absolute;
     text-align: center;
@@ -72,6 +66,8 @@ header {
   #grid-container .grid-item1 {
     grid-column: 1/3;
     display: flex;
+    justify-content: none;
+    align-items: none;
     flex-direction: column; }
     #grid-container .grid-item1 .logomain {
       height: 150px;
@@ -100,16 +96,17 @@ header {
         text-decoration: underline; }
   #grid-container .grid-item2 {
     display: flex;
-    padding: 0 30px 0 25px;
-    margin: 10px;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    padding: 0 30px 0 25px;
+    margin: 10px;
     background-color: rgba(255, 255, 255, 0.522);
     border-radius: 10px;
     box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504); }
     #grid-container .grid-item2 img {
-      height: 500px;
-      width: 400px;
+      height: 105%;
+      width: 100%;
       box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504); }
     #grid-container .grid-item2 .titulotexto2 {
       margin-left: 25px;
@@ -118,12 +115,15 @@ header {
       #grid-container .grid-item2 .titulotexto2 .titulo2 {
         margin-bottom: 15px;
         text-align: left; }
+      #grid-container .grid-item2 .titulotexto2 .leer {
+        margin-left: 5px; }
   #grid-container .grid-item3 {
     display: flex;
-    padding: 0 25px 0 30px;
-    margin: 10px;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    padding: 0 25px 0 30px;
+    margin: 10px;
     background-color: rgba(255, 255, 255, 0.522);
     border-radius: 10px;
     box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504); }
@@ -134,60 +134,152 @@ header {
       #grid-container .grid-item3 .titulotexto3 .titulo3 {
         margin-bottom: 15px;
         text-align: left; }
+      #grid-container .grid-item3 .titulotexto3 .leer {
+        margin-left: 5px; }
     #grid-container .grid-item3 img {
-      height: 500px;
-      width: 450px;
+      height: 105%;
+      width: 100%;
       box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504); }
   #grid-container .grid-item4 {
     grid-column: 1/3;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     margin: 50px 300px 50px 300px;
     padding: 0 50px 0 50px;
     background-color: rgba(255, 255, 255, 0.522);
     border-radius: 10px;
     box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504); }
     #grid-container .grid-item4 img {
-      height: 450px;
-      width: 400px;
+      height: 105%;
+      width: 100%;
       box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504); }
     #grid-container .grid-item4 .titulotexto4 {
       margin-left: 20px;
       text-align: left; }
       #grid-container .grid-item4 .titulotexto4 .titulo4 {
         margin-bottom: 15px; }
+      #grid-container .grid-item4 .titulotexto4 .leer {
+        margin-left: 5px; }
+
+.flechas {
+  font-size: 45px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin-top: 20%;
+  color: white;
+  text-shadow: 1px 1px 25px black; }
+
+.flechas h1 {
+  display: none; }
+
+.flechas a img {
+  width: 65px;
+  height: 65px;
+  margin-top: 300px;
+  filter: drop-shadow(1px 1px 4px #2e2e2e); }
+
+.h2-contacto {
+  font-family: "Shantell sans", cursive;
+  font-size: 45px;
+  text-align: center;
+  color: black;
+  margin: 30px; }
+
+#main-contacto {
+  height: 800px;
+  width: 100%;
+  background-image: url(../img/v894-kul-02-e.jpg);
+  background-repeat: no-repeat;
+  background-size: 210vh 250vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.51);
+  width: 800px;
+  height: 700px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.303); }
+
+.formulario input {
+  height: 50px;
+  width: 500px;
+  padding: 3px 10px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+  display: inline-block;
+  align-items: center; }
+
+.formulario textarea {
+  width: 500px;
+  height: 150px;
+  border: #f6f6f6 1px solid;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0 50px;
+  display: block; }
+
+.formulario .resetear {
+  width: 100%;
+  padding: 8px 16px;
+  margin-top: 10px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.396); }
+
+.formulario .enviar {
+  width: 100%;
+  padding: 8px 16px;
+  margin-top: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #000; }
 
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
   background-color: black;
   color: white; }
   footer .by {
-    margin-left: 20px;
-    display: flex;
-    align-items: center; }
+    margin-left: 20px; }
     footer .by img {
-      justify-content: space-between;
       height: 15px;
-      width: 15px; }
-  footer nav ul li {
-    list-style: none;
-    margin: 5px; }
-    footer nav ul li a {
-      text-decoration: none;
-      color: #8a8a8a; }
+      width: 15px;
+      margin: 5px; }
+  footer nav ul {
+    margin-top: 10px; }
+    footer nav ul li {
+      list-style: none;
+      margin: 5px; }
+      footer nav ul li a {
+        text-decoration: none;
+        color: #8a8a8a; }
   footer .redes {
     display: flex;
+    justify-content: center;
     align-items: center;
-    /*p{
-            
-        }*/ }
+    flex-direction: row; }
     footer .redes div a img {
       width: 25px;
       height: 25px;
-      margin: 10px 10px 10px 10px; }
+      margin: 0 10px 10px 10px; }
 
 @media screen and (max-width: 1400px) {
   .mensaje h2 {
@@ -737,3 +829,56 @@ footer {
   footer img {
     width: 10px;
     height: 10px; } }
+
+@media screen and (max-width: 1200px) {
+  .flechas a img {
+    margin-top: 400px;
+    width: 35px;
+    height: 35px; } }
+
+@media screen and (max-width: 990px) {
+  .flechas a img {
+    margin-top: 400px;
+    width: 35px;
+    height: 35px; } }
+
+@media screen and (max-width: 850px) {
+  .formulario {
+    width: 600px;
+    height: 700px; } }
+
+@media screen and (max-width: 630px) {
+  .formulario {
+    width: 500px;
+    height: 700px; }
+  .formulario input {
+    width: 300px; }
+  .formulario textarea {
+    width: 300px; } }
+
+@media screen and (max-width: 500px) {
+  .flechas a img {
+    margin-top: 550px; }
+  .formulario {
+    width: 400px;
+    height: 600px; }
+  .formulario input {
+    width: 300px;
+    height: 40px; }
+  .formulario textarea {
+    margin: 8px 0 30px; } }
+
+@media screen and (max-width: 400px) {
+  .flechas a img {
+    margin-top: 550px; }
+  .formulario {
+    width: 300px;
+    height: 600px; }
+  .h2-contacto {
+    font-size: 35px; }
+  .formulario input {
+    width: 250px;
+    height: 40px; }
+  .formulario textarea {
+    width: 250px;
+    margin: 8px 0 20px; } }

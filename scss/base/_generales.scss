@@ -27,3 +27,18 @@
     font-family: 'inter';
     box-sizing: border-box;
 }
+
+//! OPERACIONES
+
+$ancho: 100%;
+$largo: 105%;
+
+//! MIXINS
+
+@mixin flex ($flex, $justify, $aling, $direction) {
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+    flex-direction: $direction;
+}
+

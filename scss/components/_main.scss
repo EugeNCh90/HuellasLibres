@@ -11,8 +11,7 @@
 
     .grid-item1 {
         grid-column: 1/3;
-        display: flex;
-        flex-direction: column;
+        @include flex (flex, none, none, column);
 
         .logomain {
             height: 150px;
@@ -51,18 +50,16 @@
     }
 
     .grid-item2 {
-        display: flex;
+        @include flex (flex, center, center, row);
         padding: 0 30px 0 25px;
         margin: 10px;
-        justify-content: center;
-        align-items: center;
         background-color: rgba(255, 255, 255, 0.522);
         border-radius: 10px;
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504);
 
         img {
-            height: 500px;
-            width: 400px;
+            height: $largo;
+            width: $ancho;
             box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504);
         }
 
@@ -75,15 +72,17 @@
                 margin-bottom: 15px;
                 text-align: left;
             }
+
+            .leer {
+                margin-left: 5px;
+            }
         }
     }
 
     .grid-item3 {
-        display: flex;
+        @include flex (flex, center, center, row);
         padding: 0 25px 0 30px;
         margin: 10px;
-        justify-content: center;
-        align-items: center;
         background-color: rgba(255, 255, 255, 0.522);
         border-radius: 10px;
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504);
@@ -97,20 +96,22 @@
                 margin-bottom: 15px;
                 text-align: left;
             }
+
+            .leer {
+                margin-left: 5px;
+            }
         }
 
         img {
-            height: 500px;
-            width: 450px;
+            height: $largo;
+            width: $ancho;
             box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504);
         }
     }
 
     .grid-item4 {
         grid-column: 1/3;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex (flex, center, center, row);
         margin: 50px 300px 50px 300px;
         padding: 0 50px 0 50px;
         background-color: rgba(255, 255, 255, 0.522);
@@ -118,8 +119,8 @@
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504);
 
         img {
-            height: 450px;
-            width: 400px;
+            height: $largo;
+            width: $ancho;
             box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504);
         }
 
@@ -130,6 +131,104 @@
             .titulo4 {
                 margin-bottom: 15px;
             }
+
+            .leer {
+                margin-left: 5px;
+            }
         }
     }
 }
+
+
+// PAGINA CONTACTO
+
+.flechas {
+    font-size: 45px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 20%;
+    color: white;
+    text-shadow: 1px 1px 25px black;
+}
+
+.flechas h1 {
+    display: none;
+}
+
+.flechas a img{
+    width: 65px;
+    height: 65px;
+    margin-top: 300px;
+    filter: drop-shadow( 1px 1px 4px rgb(46, 46, 46));
+}
+
+.h2-contacto {
+    font-family: "Shantell sans", cursive;
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    margin: 30px;
+}
+
+#main-contacto {
+    height: 800px;
+    width: 100%;
+    background-image: url(../img/v894-kul-02-e.jpg);
+    background-repeat: no-repeat;
+    background-size: 210vh 250vh;
+    background-position: center;
+    background-size: cover;
+    @include flex (flex, center, center, row);
+}
+
+.formulario {
+    @include flex (flex, center, center, column);
+    background-color: rgba(255, 255, 255, 0.51);
+    width: 800px;
+    height: 700px;
+	border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.303);
+}
+
+.formulario input{
+    height: 50px;
+    width: 500px;
+	padding: 3px 10px;
+	border: 1px solid #f6f6f6;
+	border-radius: 3px;
+	background-color:#f6f6f6;
+	margin: 8px 0;
+	display: inline-block;
+    align-items: center;
+}
+
+.formulario textarea{
+    width: 500px;
+    height: 150px;
+    border: #f6f6f6 1px solid;
+    border-radius: 3px;
+    background-color:#f6f6f6;			
+    margin: 8px 0 50px;
+    display:block;
+}
+
+.formulario .resetear{
+        width: 100%;
+        padding: 8px 16px;
+        margin-top: 10px;
+        border: 2px solid #000;
+        border-radius:5px;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.396);
+} 
+
+.formulario .enviar{
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border: 1px solid #000;
+    border-radius:5px;
+    color:#fff;
+    background-color:#000;
+} 

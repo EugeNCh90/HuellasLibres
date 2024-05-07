@@ -961,3 +961,93 @@
         height: 10px;
     }
 }
+
+//! PAGINA CONTACTO
+
+@media screen and (max-width: 1200px){
+    .flechas a img{
+        margin-top: 400px;
+        width: 35px;
+        height: 35px;
+        }
+    }
+
+@media screen and (max-width: 990px){
+
+    .flechas a img{
+        margin-top: 400px;
+        width: 35px;
+        height: 35px;
+        }
+    }
+
+@media screen and (max-width: 850px){
+
+    .formulario {
+        width: 600px;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 630px){
+
+    .formulario {
+        width: 500px;
+        height: 700px;
+    }
+
+    .formulario input{
+        width: 300px;
+    }
+    
+    .formulario textarea{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .flechas a img{
+        margin-top: 550px;
+    }
+
+    .formulario {
+        width: 400px;
+        height: 600px;
+    }
+
+    .formulario input{
+        width: 300px;
+        height: 40px;
+    }
+
+    .formulario textarea {
+        margin: 8px 0 30px;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .flechas a img{
+        margin-top: 550px;
+    }
+
+    .formulario {
+        width: 300px;
+        height: 600px;
+    }
+
+    .h2-contacto {
+        font-size: 35px;
+    }
+
+    .formulario input{
+        width: 250px;
+        height: 40px;
+    }
+
+    .formulario textarea {
+        width: 250px;
+        margin: 8px 0 20px;
+    }
+}

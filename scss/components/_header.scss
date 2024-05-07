@@ -5,8 +5,7 @@ header {
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    @include flex (flex, none, none, column);
 
     nav {
         div {
@@ -16,22 +15,15 @@ header {
                     width: 10rem;
                 }
             }
-            /*button {
-            }*/
             div {
                 ul {
                     li {
                         a {
                             color: white !important;
                             text-align: center;
-                        }
+                            margin: 20px                        }
                     }
                 }
-                /*form {
-                    input {}
-
-                    button {}
-                }*/
             }
         }
     }
