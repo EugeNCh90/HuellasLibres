@@ -8,6 +8,7 @@
     grid-template-rows: 700px 500px 500px;
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
+    flex-wrap: wrap;
 
     .grid-item1 {
         grid-column: 1/3;
@@ -25,25 +26,24 @@
             align-items: center;
 
             h2 {
-                font-family: "Shantell sans", cursive;
-                padding: 0 20rem 0 20rem;
-                font-size: 50px;
-                margin: 50px 0 100px;
-                text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.504);
+                font-family: "Playfair Display", serif;
+                padding: 0 22rem 0 22rem;
+                font-size: 60px;
+                margin: 20px 0 100px;
+                text-shadow: 3px 1px 5px rgba(62, 61, 61, 0.501);
             }
 
             p {
-                padding: 0 15rem 0 15rem;
-                background-color: #00000027;
-                color: white;
+                padding: 0 13rem 0 13rem;
+                font-size: 20px;
                 justify-content: center;
             }
 
             h3 {
-                font-family: "Shantell sans", cursive;
+                font-family: "Playfair Display", serif;
                 padding: 0 20rem 0 20rem;
                 font-size: 30px;
-                margin: 50px 0 100px;
+                margin: 80px 0 100px;
                 text-decoration: underline;
             }
         }
@@ -66,7 +66,6 @@
         .titulotexto2 {
             margin-left: 25px;
             text-align: left;
-            word-spacing: -1px;
 
             .titulo2 {
                 margin-bottom: 15px;
@@ -90,7 +89,6 @@
         .titulotexto3 {
             margin-right: 20px;
             text-align: left;
-            word-spacing: -1px;
 
             .titulo3 {
                 margin-bottom: 15px;
@@ -113,7 +111,7 @@
         grid-column: 1/3;
         @include flex (flex, center, center, row);
         margin: 50px 300px 50px 300px;
-        padding: 0 50px 0 50px;
+        padding: 0 25px 0 30px;
         background-color: rgba(255, 255, 255, 0.522);
         border-radius: 10px;
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504);
