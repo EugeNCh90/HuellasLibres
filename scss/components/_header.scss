@@ -15,9 +15,11 @@ header {
                     width: 10rem;
                 }
             }
+
             button {
                 border-color: white !important;
             }
+
             div {
                 ul {
                     li {
@@ -25,7 +27,7 @@ header {
                             color: white !important;
                             text-align: center;
                             font-weight: 350;
-                            margin: 30px;                        
+                            margin: 30px;
                         }
                     }
                 }
@@ -52,25 +54,76 @@ header {
                 height: 55px;
                 margin-top: 60px;
                 filter: drop-shadow(1px 1px 4px rgb(46, 46, 46));
-                    position: absolute;
-                    left: 45%;
-                    transform: translateX(-50%);
-                    animation: bounce 1s infinite alternate;
-                    cursor: pointer;
-                
+                position: absolute;
+                transform: translateX(-50%);
+                animation: bounce 1s infinite alternate;
+                cursor: pointer;
+
                 @keyframes bounce {
                     0% {
                         transform: translateY(0);
                     }
+
                     100% {
                         transform: translateY(10px);
                     }
                 }
-                
+
                 &:hover {
                     animation-play-state: paused;
                 }
-                
+
+                &:active {
+                    animation: none;
+                }
+            }
+        }
+    }
+}
+
+
+//* OTRAS SECCIONES
+
+header {
+    .seccion {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        margin-top: 400px;
+
+        h1 {
+            font-size: 65px;
+            font-weight: 700;
+            color: white;
+            text-shadow: 1px 1px 15px black;
+        }
+
+        a {
+            img {
+                width: 55px;
+                height: 55px;
+                margin-top: 60px;
+                filter: drop-shadow(1px 1px 4px rgb(46, 46, 46));
+                position: absolute;
+                left: 48%;
+                transform: translateX(-50%);
+                animation: bounce 1s infinite alternate;
+                cursor: pointer;
+
+                @keyframes bounce {
+                    0% {
+                        transform: translateY(0);
+                    }
+
+                    100% {
+                        transform: translateY(10px);
+                    }
+                }
+
+                &:hover {
+                    animation-play-state: paused;
+                }
+
                 &:active {
                     animation: none;
                 }

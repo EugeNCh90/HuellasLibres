@@ -9,7 +9,7 @@
         content="¿Tienes preguntas sobre nuestras rutas de senderismo o quieres compartir tus experiencias? ¡Contáctanos hoy mismo y únete a nuestra comunidad de amantes del senderismo!">
     <!--* Keywords -->
     <meta name="keywords"
-        content="senderismo, trekking, trail, naturaleza, aventura, huella, huellas, libre, libertad, montaña, campos, sendero, aire libre, ruta, experiencia, excursion, salud, caminata, contacto, dudas, sugerencias, nosotros, preguntas">
+        content="senderismo, trekking, trail, contacto, dudas, sugerencias, nosotros, preguntas">
     <!--* Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -60,26 +60,32 @@
                 </div>
             </div>
         </nav>
-        <div class="flechas">
-            <h1>Explora el mundo.<br>Vive la aventura.</h1>
-            <a href="#main-contacto"><img src="../img/icons8-doble-abajo-96.png" alt="flechas"></a>
+        <div class="seccion">
+            <h1>Contacto</h1>
+            <a href="#contacto-main"><img src="../img/icons8-doble-abajo-96.png" alt="flecha-ir-abajo"></a>
         </div>
     </header>
     <main>
-        <section id="main-contacto">
+        <section id="contacto-main">
+            <img class="logomain" src="../img/Logo huellaslibres negro.png" alt="Logo Huellas Libres">
+            <p>En Huellas Libres, nos encanta saber de vos. <br>
+                Ya sea que tengas preguntas sobre nuestras rutas de senderismo, necesites consejos sobre equipo, o
+                simplemente quieras compartir tus experiencias y aventuras, estamos aquí para ayudarte. <br>
+                Completa el formulario a continuación o utiliza la información de contacto para ponerte en contacto con
+                nosotros.</p>
             <form class="formulario" action="">
-                <h2 class="h2-contacto">CONTACTANOS</h2>
                 <div><input type="text" name="nombreyapellido" id="nombreyapellido" placeholder="Nombre y Apellido">
                 </div>
                 <div><input type="email" name="email" id="email" placeholder="Correo Electrónico"></div>
                 <div><input type="number" name="telefono" id="telefono" placeholder="Teléfono de contacto"></div>
                 <div><textarea name="texto" id="" cols="30" rows="10"
                         placeholder="Escribe un mensaje, consulta o sugerencia"></textarea></div>
-                <div>
+                <div class="botones-form">
                     <input class="resetear" type="reset">
                     <input class="enviar" type="submit">
                 </div>
             </form>
+            <p class="mail-huellas">O escribinos a nuestro mail: <br> huellaslibres@gmail.com</p>
         </section>
     </main>
     <footer>

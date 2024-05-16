@@ -1,9 +1,10 @@
+//* INICIO
+
 #grid-container {
-    background-image: url(../img/v894-kul-02-e.jpg);
-    background-repeat: no-repeat;
-    background-size: 210vh 250vh;
-    background-position: center;
-    background-size: cover;
+    background-image: url(../../img/filter-bg.png);
+    background-repeat: space;
+    background-position: center center;
+    background-size: 100% auto;
     display: grid;
     grid-template-rows: 700px 500px 500px;
     grid-template-columns: 1fr 1fr;
@@ -55,12 +56,12 @@
         margin: 10px;
         background-color: rgba(255, 255, 255, 0.522);
         border-radius: 10px;
-        box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504);
+        box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.504);
 
         img {
             height: $largo;
             width: $ancho;
-            box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504);
+            box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.504);
         }
 
         .titulotexto2 {
@@ -84,7 +85,7 @@
         margin: 10px;
         background-color: rgba(255, 255, 255, 0.522);
         border-radius: 10px;
-        box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504);
+        box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.504);
 
         .titulotexto3 {
             margin-right: 20px;
@@ -103,7 +104,7 @@
         img {
             height: $largo;
             width: $ancho;
-            box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504);
+            box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.504);
         }
     }
 
@@ -114,12 +115,12 @@
         padding: 0 25px 0 30px;
         background-color: rgba(255, 255, 255, 0.522);
         border-radius: 10px;
-        box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504);
+        box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.504);
 
         img {
             height: $largo;
             width: $ancho;
-            box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.504);
+            box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.504);
         }
 
         .titulotexto4 {
@@ -137,96 +138,447 @@
     }
 }
 
+//* PAGINA SENDEROS
 
-// PAGINA CONTACTO
-
-.flechas {
-    font-size: 45px;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    margin-top: 20%;
-    color: white;
-    text-shadow: 1px 1px 25px black;
-}
-
-.flechas h1 {
-    display: none;
-}
-
-.flechas a img{
-    width: 65px;
-    height: 65px;
-    margin-top: 300px;
-    filter: drop-shadow( 1px 1px 4px rgb(46, 46, 46));
-}
-
-.h2-contacto {
-    font-family: "Shantell sans", cursive;
-    font-size: 45px;
-    text-align: center;
-    color: black;
-    margin: 30px;
-}
-
-#main-contacto {
-    height: 800px;
-    width: 100%;
-    background-image: url(../img/v894-kul-02-e.jpg);
-    background-repeat: no-repeat;
-    background-size: 210vh 250vh;
-    background-position: center;
+main #senderismo-main {
+    background-image: url(../../img/home_hero__2.webp);
+    background-position: center top;
     background-size: cover;
-    @include flex (flex, center, center, row);
+    min-height: 100vh;
+    margin-top: -15vh;
+
+    img {
+        height: 150px;
+        width: 150px;
+        margin: 100px 10px 0 10px;
+    }
+
+    div {
+        position: absolute;
+
+        h2 {
+            font-family: "Playfair Display", serif;
+            font-size: 65px;
+            padding: 0 60rem 0 2rem;
+        }
+
+        .region-p {
+            font-size: 15px;
+            padding: 0 70rem 0 2rem;
+            margin-bottom: 15px;
+        }
+
+        a {
+            border: 1px solid black;
+            color: black;
+            background: transparent;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 1rem 2rem 1rem 2rem;
+            margin-left: 2rem;
+        }
+
+        .btn {
+            margin-left: 2rem;
+            font-size: 18px;
+            padding: 1rem 2rem 1rem 2rem;
+            margin-bottom: 2rem;
+
+        }
+    }
 }
 
-.formulario {
-    @include flex (flex, center, center, column);
-    background-color: rgba(255, 255, 255, 0.51);
-    width: 800px;
-    height: 700px;
-	border-radius: 10px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.303);
-}
+main #senderismo-main2 {
 
-.formulario input{
-    height: 50px;
-    width: 500px;
-	padding: 3px 10px;
-	border: 1px solid #f6f6f6;
-	border-radius: 3px;
-	background-color:#f6f6f6;
-	margin: 8px 0;
-	display: inline-block;
-    align-items: center;
-}
+    h3 {
+        font-family: "Playfair Display", serif;
+        font-size: 65px;
+        text-align: center;
+        margin-top: 40px;
+    }
 
-.formulario textarea{
-    width: 500px;
-    height: 150px;
-    border: #f6f6f6 1px solid;
-    border-radius: 3px;
-    background-color:#f6f6f6;			
-    margin: 8px 0 50px;
-    display:block;
-}
-
-.formulario .resetear{
-        width: 100%;
-        padding: 8px 16px;
+    p {
+        text-align: center;
+        font-size: 25px;
         margin-top: 10px;
-        border: 2px solid #000;
-        border-radius:5px;
-        color: black;
-        background-color: rgba(255, 255, 255, 0.396);
-} 
+    }
 
-.formulario .enviar{
-    width: 100%;
-    padding: 8px 16px;
-    margin-top: 10px;
-    border: 1px solid #000;
-    border-radius:5px;
-    color:#fff;
-    background-color:#000;
-} 
+    .container {
+        max-width: 1400px;
+        width: 100%;
+
+        .image-list {
+            display: grid;
+            gap: 18px;
+            grid-template-columns: repeat(10, 1fr);
+        }
+
+        a {
+            text-decoration: none;
+            position: relative;
+
+            img {
+                width: 325px;
+                height: 400px;
+                object-fit: cover;
+                border-radius: 30px;
+
+            }
+
+            p {
+                font-family: "Playfair Display", serif;
+                font-weight: 800;
+                position: absolute;
+                bottom: 0;
+                padding: 5px 50px;
+                text-align: center;
+                color: white;
+                width: 100%;
+                height: 80px;
+                background: linear-gradient(to top, rgba(0, 0, 0, 0.841), rgba(0, 0, 0, 0));
+                border-radius: 30px;
+                z-index: 2;
+                margin: 0;
+            }
+        }
+    }
+
+    .btn,
+    .btn-dark {
+        margin: 40px 40px 40px 640px;
+    }
+}
+
+//* PAGINA ARTICULOS
+
+main #articulos-main {
+    background-image: url(../../img/filter-bg.png);
+    background-repeat: space;
+    background-position: center center;
+    background-size: 100% auto;
+
+    img {
+        height: 150px;
+        width: 150px;
+        margin: 10px;
+    }
+
+    .copete {
+        padding-top: 80px;
+        padding-bottom: 50px;
+        margin: 0px 300px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    #grid-container1 {
+        display: grid;
+        grid-template-rows: 500px 300px 200px 500px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 30px;
+        margin: 50px;
+        flex-wrap: wrap;
+
+
+
+        .grid-item1a {
+            grid-column: span 1;
+
+            img {
+                width: 100%;
+                height: 150%;
+                object-fit: cover;
+                box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.504);
+            }
+        }
+
+        .grid-item2a {
+            grid-column: span 3;
+
+            article {
+                h3 {
+                    margin: 0 25px 25px 25px;
+                    font-family: "Playfair Display", serif;
+                    font-size: 60px;
+                }
+
+                p {
+                    margin: 25px;
+                    font-size: 15px;
+
+                    .negrita {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+        .grid-item3a {
+            margin-top: 50px;
+            grid-column: span 4;
+            grid-row: 3;
+            text-align: center;
+
+            .recomendacion {
+                font-size: 35px;
+                font-weight: 500;
+            }
+        }
+
+        .grid-item4a {
+            flex-direction: column;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row: 4;
+
+            img {
+                width: 100%;
+                height: 50%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+
+            h4 {
+                margin-top: 10px;
+            }
+
+            p {
+                text-align: justify;
+            }
+        }
+
+        .grid-item5a {
+            flex-direction: column;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row: 4;
+
+            img {
+                width: 100%;
+                height: 50%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+
+            h4 {
+                margin-top: 10px;
+            }
+
+            p {
+                text-align: justify;
+            }
+        }
+    }
+}
+
+
+//* PAGINA NUTRICION
+
+main #nutricion-main {
+    background-image: url(../../img/filter-bg.png);
+    background-repeat: space;
+    background-position: center center;
+    background-size: 100% auto;
+
+    img {
+        height: 150px;
+        width: 150px;
+        margin: 10px;
+    }
+
+    .copete {
+        padding-top: 80px;
+        padding-bottom: 50px;
+        margin: 0px 400px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    #grid-container1 {
+        display: grid;
+        grid-template-rows: 500px 300px 200px 500px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 30px;
+        margin: 50px;
+        flex-wrap: wrap;
+
+
+
+        .grid-item1a {
+            grid-column: span 1;
+
+            img {
+                width: 100%;
+                height: 150%;
+                object-fit: cover;
+                box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.504);
+            }
+        }
+
+        .grid-item2a {
+            grid-column: span 3;
+
+            article {
+                h3 {
+                    margin: 0 25px 25px 25px;
+                    font-family: "Playfair Display", serif;
+                    font-size: 60px;
+                }
+
+                p {
+                    margin: 25px;
+                    font-size: 15px;
+
+                    .negrita {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+        .grid-item3a {
+            margin-top: 50px;
+            grid-column: span 4;
+            grid-row: 3;
+            text-align: center;
+
+            .recomendacion {
+                font-size: 35px;
+                font-weight: 500;
+            }
+        }
+
+        .grid-item4a {
+            flex-direction: column;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row: 4;
+
+            img {
+                width: 100%;
+                height: 50%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+
+            h4 {
+                margin-top: 10px;
+            }
+
+            p {
+                text-align: justify;
+            }
+        }
+
+        .grid-item5a {
+            flex-direction: column;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row: 4;
+
+            img {
+                width: 100%;
+                height: 50%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+
+            h4 {
+                margin-top: 10px;
+            }
+
+            p {
+                text-align: justify;
+            }
+        }
+    }
+}
+
+
+//* PAGINA CONTACTO
+
+main #contacto-main {
+    background-image: url(../../img/home_hero__2.webp);
+    background-position: center top;
+    background-size: cover;
+    min-height: 100vh;
+    margin-top: -15vh;
+    @include flex (flex, center, left, column);
+
+    img {
+        height: 150px;
+        width: 150px;
+        margin: 120px 10px 0 320px;
+    }
+
+    p {
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 830px;
+    }
+
+    .formulario {
+        margin-top: 20px;
+        margin-left: 200px;
+    }
+
+    div {
+        input {
+            width: 400px;
+            height: 50px;
+            padding: 3px 10px;
+            border: none;
+            border-bottom: 2px solid black;
+            background: none;
+            margin: 8px 0;
+            align-items: center;
+        }
+    }
+
+    div {
+        textarea {
+            width: 400px;
+            height: 150px;
+            padding: 3px 10px;
+            border: 2px solid black;
+            background: none;
+            margin: 40px 0 50px;
+        }
+    }
+
+    .botones-form {
+        margin-bottom: 50px;
+
+        .resetear {
+            width: 200px;
+            height: 40px;
+            padding: 8px 16px;
+            margin-top: 10px;
+            border: 2px solid #000;
+            border-radius: 5px;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.396);
+        }
+
+
+        .enviar {
+            width: 200px;
+            height: 40px;
+            padding: 8px 16px;
+            margin-top: 10px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            color: #fff;
+            background-color: #000;
+        }
+    }
+
+    .mail-huellas {
+        border: none;
+        border-top: #000 2px solid;
+        margin-left: 120px;
+        margin-bottom: 50px;
+        padding-top: 30px;
+        font-weight: 400;
+    }
+}
