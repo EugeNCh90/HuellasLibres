@@ -43,19 +43,18 @@ header {
     position: absolute;
     text-align: center;
     width: 100%;
-    margin-top: 400px; }
+    margin-top: 350px; }
     header .bienvenidos h1 {
       font-size: 75px;
       font-weight: 700;
       color: white;
-      text-shadow: 1px 1px 15px black; }
+      text-shadow: 1px 1px 20px black; }
     header .bienvenidos a img {
-      width: 55px;
-      height: 55px;
-      margin-top: 60px;
+      width: 50px;
+      height: 50px;
+      margin-top: 40px;
       filter: drop-shadow(1px 1px 4px #2e2e2e);
       position: absolute;
-      transform: translateX(-50%);
       animation: bounce 1s infinite alternate;
       cursor: pointer; }
 
@@ -73,20 +72,19 @@ header .seccion {
   position: absolute;
   text-align: center;
   width: 100%;
-  margin-top: 400px; }
+  margin-top: 350px; }
   header .seccion h1 {
     font-size: 65px;
     font-weight: 700;
     color: white;
-    text-shadow: 1px 1px 15px black; }
+    text-shadow: 1px 1px 20px black; }
   header .seccion a img {
-    width: 55px;
-    height: 55px;
-    margin-top: 60px;
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
     filter: drop-shadow(1px 1px 4px #2e2e2e);
     position: absolute;
     left: 48%;
-    transform: translateX(-50%);
     animation: bounce 1s infinite alternate;
     cursor: pointer; }
 
@@ -217,74 +215,76 @@ main #senderismo-main {
     height: 150px;
     width: 150px;
     margin: 100px 10px 0 10px; }
-  main #senderismo-main div {
-    position: absolute; }
-    main #senderismo-main div h2 {
-      font-family: "Playfair Display", serif;
-      font-size: 65px;
-      padding: 0 60rem 0 2rem; }
-    main #senderismo-main div .region-p {
-      font-size: 15px;
-      padding: 0 70rem 0 2rem;
-      margin-bottom: 15px; }
-    main #senderismo-main div a {
-      border: 1px solid black;
-      color: black;
-      background: transparent;
-      text-decoration: none;
-      font-size: 18px;
-      padding: 1rem 2rem 1rem 2rem;
-      margin-left: 2rem; }
-    main #senderismo-main div .btn {
-      margin-left: 2rem;
-      font-size: 18px;
-      padding: 1rem 2rem 1rem 2rem;
-      margin-bottom: 2rem; }
-
-main #senderismo-main2 h3 {
-  font-family: "Playfair Display", serif;
-  font-size: 65px;
-  text-align: center;
-  margin-top: 40px; }
-
-main #senderismo-main2 p {
-  text-align: center;
-  font-size: 25px;
-  margin-top: 10px; }
-
-main #senderismo-main2 .container {
-  max-width: 1400px;
-  width: 100%; }
-  main #senderismo-main2 .container .image-list {
-    display: grid;
-    gap: 18px;
-    grid-template-columns: repeat(10, 1fr); }
-  main #senderismo-main2 .container a {
+  main #senderismo-main .region h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 65px;
+    padding: 0 60rem 0 2rem; }
+  main #senderismo-main .region .region-p {
+    font-size: 15px;
+    padding: 0 70rem 0 2rem;
+    margin-bottom: 15px; }
+  main #senderismo-main .region a {
+    border: 1px solid black;
+    color: black;
+    background: transparent;
     text-decoration: none;
-    position: relative; }
-    main #senderismo-main2 .container a img {
-      width: 325px;
-      height: 400px;
-      object-fit: cover;
-      border-radius: 30px; }
-    main #senderismo-main2 .container a p {
-      font-family: "Playfair Display", serif;
-      font-weight: 800;
-      position: absolute;
-      bottom: 0;
-      padding: 5px 50px;
-      text-align: center;
-      color: white;
-      width: 100%;
-      height: 80px;
-      background: linear-gradient(to top, rgba(0, 0, 0, 0.841), rgba(0, 0, 0, 0));
-      border-radius: 30px;
-      z-index: 2;
-      margin: 0; }
+    font-size: 18px;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-left: 2rem; }
+  main #senderismo-main .region .btn {
+    margin-left: 2rem;
+    font-size: 18px;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-bottom: 2rem; }
 
-main #senderismo-main2 .btn,
-main #senderismo-main2 .btn-dark {
-  margin: 40px 40px 40px 640px; }
+main #senderismo-main2 {
+  background-image: url(../../img/filter-bg.png);
+  background-repeat: space;
+  background-position: center center;
+  background-size: 100% 100%; }
+  main #senderismo-main2 h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 65px;
+    text-align: center;
+    margin-top: 40px; }
+  main #senderismo-main2 p {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px; }
+  main #senderismo-main2 .container {
+    max-width: 1400px;
+    width: 100%; }
+    main #senderismo-main2 .container .image-list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 18px; }
+    main #senderismo-main2 .container a {
+      text-decoration: none;
+      position: relative; }
+      main #senderismo-main2 .container a img {
+        width: 325px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 30px; }
+      main #senderismo-main2 .container a p {
+        font-family: "Playfair Display", serif;
+        font-weight: 800;
+        position: absolute;
+        bottom: 0;
+        padding: 5px 50px;
+        text-align: center;
+        color: white;
+        width: 100%;
+        height: 80px;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.841), rgba(0, 0, 0, 0));
+        border-radius: 30px;
+        z-index: 2;
+        margin: 0; }
+  main #senderismo-main2 div .btn, main #senderismo-main2 div .btn-dark {
+    margin: 40px 0; }
 
 main #articulos-main {
   background-image: url(../../img/filter-bg.png);
@@ -296,7 +296,6 @@ main #articulos-main {
     width: 150px;
     margin: 10px; }
   main #articulos-main .copete {
-    padding-top: 80px;
     padding-bottom: 50px;
     margin: 0px 300px;
     text-align: center;
@@ -314,7 +313,7 @@ main #articulos-main {
         width: 100%;
         height: 150%;
         object-fit: cover;
-        box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.504); }
+        box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.504); }
     main #articulos-main #grid-container1 .grid-item2a {
       grid-column: span 3; }
       main #articulos-main #grid-container1 .grid-item2a article h3 {
@@ -340,6 +339,7 @@ main #articulos-main {
       grid-column-end: 3;
       grid-row: 4; }
       main #articulos-main #grid-container1 .grid-item4a img {
+        margin: 0px;
         width: 100%;
         height: 50%;
         object-fit: cover;
@@ -354,6 +354,7 @@ main #articulos-main {
       grid-column-end: 4;
       grid-row: 4; }
       main #articulos-main #grid-container1 .grid-item5a img {
+        margin: 0;
         width: 100%;
         height: 50%;
         object-fit: cover;
@@ -373,14 +374,13 @@ main #nutricion-main {
     width: 150px;
     margin: 10px; }
   main #nutricion-main .copete {
-    padding-top: 80px;
     padding-bottom: 50px;
     margin: 0px 400px;
     text-align: center;
     font-weight: 400; }
   main #nutricion-main #grid-container1 {
     display: grid;
-    grid-template-rows: 500px 300px 200px 500px;
+    grid-template-rows: 500px 300px 200px 550px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 30px;
     margin: 50px;
@@ -391,7 +391,7 @@ main #nutricion-main {
         width: 100%;
         height: 150%;
         object-fit: cover;
-        box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.504); }
+        box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.504); }
     main #nutricion-main #grid-container1 .grid-item2a {
       grid-column: span 3; }
       main #nutricion-main #grid-container1 .grid-item2a article h3 {
@@ -417,6 +417,7 @@ main #nutricion-main {
       grid-column-end: 3;
       grid-row: 4; }
       main #nutricion-main #grid-container1 .grid-item4a img {
+        margin: 0;
         width: 100%;
         height: 50%;
         object-fit: cover;
@@ -429,8 +430,10 @@ main #nutricion-main {
       flex-direction: column;
       grid-column-start: 3;
       grid-column-end: 4;
-      grid-row: 4; }
+      grid-row: 4;
+      margin-bottom: 20px; }
       main #nutricion-main #grid-container1 .grid-item5a img {
+        margin: 0px;
         width: 100%;
         height: 50%;
         object-fit: cover;
@@ -536,6 +539,15 @@ footer {
       height: 25px;
       margin: 0 10px 10px 10px; }
 
+@media screen and (max-width: 1250px) {
+  #grid-container .grid-item1 .mensaje h2 {
+    padding: 0 10rem 0 10rem;
+    margin: 20px 0 20px; }
+  .titulo2 {
+    font-size: 24px; }
+  .titulotexto2 {
+    font-size: 15px; } }
+
 @media screen and (max-width: 1200px) {
   .collapse .navbar-nav .nav-item {
     font-size: 14px;
@@ -545,9 +557,6 @@ footer {
   #grid-container {
     grid-template-rows: 650px 390px 390px;
     column-gap: 7px; }
-  #grid-container .grid-item1 .mensaje h2 {
-    padding: 0 10rem 0 10rem;
-    margin: 20px 0 20px; }
   #grid-container .grid-item1 .mensaje p {
     font-size: 15px;
     padding: 0 5rem 0 5rem; }
@@ -570,7 +579,7 @@ footer {
 @media screen and (max-width: 1100px) {
   #grid-container {
     grid-template-rows: 630px 350px 350px;
-    grid-template-columns: 49,9% 49,9%;
+    grid-template-columns: 49, 9% 49, 9%;
     column-gap: 5px; }
   #grid-container .grid-item1 .mensaje h2 {
     padding: 0 10rem 0 10rem;
@@ -610,7 +619,7 @@ footer {
 @media screen and (max-width: 975px) {
   #grid-container {
     grid-template-rows: 630px 350px 350px;
-    grid-template-columns: 49,9% 49,9%;
+    grid-template-columns: 49, 9% 49, 9%;
     column-gap: 5px; }
   #grid-container .grid-item1 .mensaje h2 {
     padding: 0 5rem 0 5rem;
@@ -891,7 +900,7 @@ footer {
     font-size: 40px; }
   #grid-container .grid-item1 .mensaje h2 {
     font-size: 25px;
-    padding: 0 0,3rem 0 0,3rem; }
+    padding: 0 0, 3rem 0 0, 3rem; }
   #grid-container .grid-item1 .mensaje p {
     padding: 0 2rem 0 2rem; }
   #grid-container .grid-item1 .mensaje h3 {
@@ -909,6 +918,175 @@ footer {
   footer .redes div a img {
     width: 15px;
     height: 15px; } }
+
+@media screen and (max-width: 1250px) {
+  main #senderismo-main img {
+    height: 140px;
+    width: 140px;
+    margin: 100px 10px 0 10px; }
+  #senderismo-main .region .region-h2 {
+    font-size: 55px;
+    padding: 0 40rem 0 2rem; }
+  main #senderismo-main .region .region-p {
+    font-size: 15px;
+    padding: 0 50rem 0 2rem; }
+  main #senderismo-main2 .container .image-list {
+    gap: 16px; }
+  main #senderismo-main2 .container a img {
+    width: 280px; } }
+
+@media screen and (max-width: 1125px) {
+  header .seccion h1 {
+    font-size: 55px; }
+  main #senderismo-main img {
+    height: 130px;
+    width: 130px; }
+  #senderismo-main .region .region-h2 {
+    font-size: 50px;
+    padding: 0 35rem 0 2rem; }
+  main #senderismo-main .region .region-p {
+    padding: 0 40rem 0 2rem; }
+  main #senderismo-main .region .btn {
+    font-size: 16px;
+    padding: 0.8rem 1.8rem; } }
+
+@media screen and (max-width: 905px) {
+  main #senderismo-main img {
+    margin-top: 80px; }
+  #senderismo-main .region .region-h2 {
+    font-size: 45px;
+    padding: 0 30rem 0 2rem; }
+  main #senderismo-main .region .region-p {
+    padding: 0 30rem 0 2rem; } }
+
+@media screen and (max-width: 732px) {
+  header .seccion h1 {
+    font-size: 50px; }
+  header .seccion a img {
+    width: 45px;
+    height: 45px; }
+  main #senderismo-main img {
+    width: 120px;
+    height: 120px;
+    margin-top: 80px; }
+  #senderismo-main .region .region-h2 {
+    font-size: 40px;
+    padding: 0 25rem 0 2rem; }
+  main #senderismo-main .region .region-p {
+    font-size: 12px;
+    padding: 0 25rem 0 2rem; }
+  main #senderismo-main .region .btn {
+    font-size: 15px;
+    padding: 0.5rem 1.5rem; }
+  main #senderismo-main2 h3 {
+    font-size: 50px; }
+  main #senderismo-main2 p {
+    font-size: 20px; } }
+
+@media screen and (max-width: 632px) {
+  main #senderismo-main {
+    min-height: 80vh;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -35vh; }
+  main #senderismo-main img {
+    width: 95px;
+    height: 95px;
+    margin-top: 150px; }
+  #senderismo-main .region .region-h2 {
+    font-size: 20px;
+    padding: 0 20rem 0 2rem; }
+  main #senderismo-main .region .region-p {
+    font-size: 9px;
+    padding: 0 20rem 0 2rem; }
+  main #senderismo-main .region .btn {
+    font-size: 10px;
+    padding: 0.3rem 1.3rem; }
+  main #senderismo-main2 h3 {
+    font-size: 40px;
+    margin-top: 0px; }
+  main #senderismo-main2 p {
+    font-size: 18px; }
+  main #senderismo-main2 .container a img {
+    width: 250px;
+    height: 275px;
+    object-fit: cover; }
+  main #senderismo-main2 .container a p {
+    padding: 5px 25px; } }
+
+@media screen and (max-width: 580px) {
+  header .seccion h1 {
+    font-size: 40px; }
+  header .seccion a img {
+    width: 35px;
+    height: 35px; }
+  main #senderismo-main img {
+    width: 80px;
+    height: 80px;
+    margin-top: 160px; }
+  #senderismo-main .region .region-h2 {
+    font-size: 20px;
+    padding: 0 15rem 0 1rem; }
+  main #senderismo-main .region .region-p {
+    font-size: 9px;
+    padding: 0 18rem 0 1rem; }
+  main #senderismo-main .region .btn {
+    font-size: 10px;
+    padding: 0.2rem 0.5rem;
+    margin-left: 1rem; } }
+
+@media screen and (max-width: 480px) {
+  main #senderismo-main img {
+    width: 50px;
+    height: 50px;
+    margin-top: 180px; }
+  #senderismo-main .region .region-h2 {
+    font-size: 16px;
+    padding: 0 14rem 0 1rem; }
+  main #senderismo-main .region .region-p {
+    font-size: 8px;
+    padding: 0 14rem 0 1rem; }
+  main #senderismo-main .region .btn {
+    font-size: 5px;
+    padding: 0.1rem 0.3rem; }
+  main #senderismo-main2 {
+    margin-top: -15vh; }
+  main #senderismo-main2 h3 {
+    font-size: 30px; }
+  main #senderismo-main2 p {
+    font-size: 16px; } }
+
+@media screen and (max-width: 399px) {
+  main #senderismo-main img {
+    width: 50px;
+    height: 50px;
+    margin-top: 185px; }
+  #senderismo-main .region .region-h2 {
+    font-size: 14px;
+    padding: 0 12rem 0 1rem; }
+  main #senderismo-main .region .region-p {
+    font-size: 8px;
+    padding: 0 12rem 0 1rem; }
+  main #senderismo-main2 h3 {
+    font-size: 25px; }
+  main #senderismo-main2 p {
+    font-size: 12px; } }
+
+@media screen and (max-width: 370px) {
+  main #senderismo-main img {
+    width: 45px;
+    height: 45px;
+    margin-top: 190px;
+    margin-left: 0.5rem; }
+  #senderismo-main .region .region-h2 {
+    font-size: 12px;
+    padding: 0 12rem 0 0.5rem; }
+  main #senderismo-main .region .region-p {
+    font-size: 7px;
+    padding: 0 12rem 0 0.5rem; }
+  main #senderismo-main .region .btn {
+    margin-left: 0.5rem; } }
 
 @media screen and (max-width: 1200px) {
   .flechas a img {

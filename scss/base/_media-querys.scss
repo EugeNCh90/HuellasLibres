@@ -1,41 +1,51 @@
-@media screen and (max-width: 1200px){
-    .collapse .navbar-nav .nav-item{
-        font-size: 14px;
-        margin: 2px;
-    }
-
-    header .bienvenidos{
-        margin-top: 300px;
-    }
-
-    #grid-container {
-            grid-template-rows: 650px 390px 390px;
-            column-gap: 7px;
-    }
-
-    #grid-container .grid-item1 .mensaje h2{
+@media screen and (max-width: 1250px) {
+    #grid-container .grid-item1 .mensaje h2 {
         padding: 0 10rem 0 10rem;
         margin: 20px 0 20px;
     }
 
-    #grid-container .grid-item1 .mensaje p{
+    .titulo2 {
+        font-size: 24px;
+    }
+
+    .titulotexto2 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .collapse .navbar-nav .nav-item {
+        font-size: 14px;
+        margin: 2px;
+    }
+
+    header .bienvenidos {
+        margin-top: 300px;
+    }
+
+    #grid-container {
+        grid-template-rows: 650px 390px 390px;
+        column-gap: 7px;
+    }
+
+    #grid-container .grid-item1 .mensaje p {
         font-size: 15px;
         padding: 0 5rem 0 5rem;
     }
-    
-    .titulo2{
+
+    .titulo2 {
         font-size: 22px;
     }
 
-    .titulotexto2{
+    .titulotexto2 {
         font-size: 14px;
     }
 
-    .titulo3{
+    .titulo3 {
         font-size: 22px;
     }
 
-    .titulotexto3{
+    .titulotexto3 {
         font-size: 14px;
     }
 
@@ -44,29 +54,29 @@
         padding: 0 25px 0 25px;
     }
 
-    .titulo4{
+    .titulo4 {
         font-size: 22px;
     }
 
-    .titulotexto4{
+    .titulotexto4 {
         font-size: 14px;
     }
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1100px) {
 
     #grid-container {
         grid-template-rows: 630px 350px 350px;
-        grid-template-columns: 49,9% 49,9%;
+        grid-template-columns: 49, 9% 49, 9%;
         column-gap: 5px;
     }
 
-    #grid-container .grid-item1 .mensaje h2{
+    #grid-container .grid-item1 .mensaje h2 {
         padding: 0 10rem 0 10rem;
         margin: 20px 0 20px;
     }
 
-    #grid-container .grid-item1 .mensaje p{
+    #grid-container .grid-item1 .mensaje p {
         font-size: 15px;
         padding: 0 5rem 0 5rem;
     }
@@ -75,20 +85,20 @@
         margin-top: 30px;
         font-size: 20px;
     }
-    
-    .titulo2{
+
+    .titulo2 {
         font-size: 20px;
     }
 
-    .titulotexto2{
+    .titulotexto2 {
         font-size: 12px;
     }
 
-    .titulo3{
+    .titulo3 {
         font-size: 20px;
     }
 
-    .titulotexto3{
+    .titulotexto3 {
         font-size: 12px;
     }
 
@@ -97,11 +107,11 @@
         padding: 0 25px 0 25px;
     }
 
-    .titulo4{
+    .titulo4 {
         font-size: 20px;
     }
 
-    .titulotexto4{
+    .titulotexto4 {
         font-size: 12px;
     }
 }
@@ -113,7 +123,7 @@
         text-align: right;
         color: black !important;
         font-weight: 800;
-        
+
     }
 
     header nav div div form {
@@ -122,15 +132,15 @@
     }
 }
 
-@media screen and (max-width: 975px){
+@media screen and (max-width: 975px) {
 
     #grid-container {
         grid-template-rows: 630px 350px 350px;
-        grid-template-columns: 49,9% 49,9%;
+        grid-template-columns: 49, 9% 49, 9%;
         column-gap: 5px;
     }
 
-    #grid-container .grid-item1 .mensaje h2{
+    #grid-container .grid-item1 .mensaje h2 {
         padding: 0 5rem 0 5rem;
         margin: 20px 0 50px;
     }
@@ -140,27 +150,27 @@
         font-size: 20px;
     }
 
-    #grid-container .grid-item2{
+    #grid-container .grid-item2 {
         padding: 0 15px 0 25px;
     }
 
-    .titulo2{
+    .titulo2 {
         font-size: 18px;
     }
 
-    .titulotexto2{
+    .titulotexto2 {
         font-size: 11px;
     }
 
-    #grid-container .grid-item3{
+    #grid-container .grid-item3 {
         padding: 0 25px 0 15px;
     }
 
-    .titulo3{
+    .titulo3 {
         font-size: 18px;
     }
 
-    .titulotexto3{
+    .titulotexto3 {
         font-size: 11px;
     }
 
@@ -169,24 +179,24 @@
         padding: 0 15px 0 15px;
     }
 
-    .titulo4{
+    .titulo4 {
         font-size: 18px;
     }
 
-    .titulotexto4{
+    .titulotexto4 {
         font-size: 11px;
     }
 }
 
-@media screen and (max-width: 897px){
+@media screen and (max-width: 897px) {
 
-    #grid-container .grid-item1 .mensaje h2{
+    #grid-container .grid-item1 .mensaje h2 {
         padding: 0 3rem 0 3rem;
         margin: 20px 0 30px;
         font-size: 50px;
     }
 
-    #grid-container .grid-item1 .mensaje p{
+    #grid-container .grid-item1 .mensaje p {
         font-size: 12px;
     }
 
@@ -194,29 +204,29 @@
         font-size: 18px;
     }
 
-    #grid-container .grid-item2{
+    #grid-container .grid-item2 {
         padding: 0 15px 0 25px;
         margin: 30px 5px 30px 5px;
     }
 
-    .titulo2{
+    .titulo2 {
         font-size: 16px;
     }
 
-    .titulotexto2{
+    .titulotexto2 {
         font-size: 10px;
     }
 
-    #grid-container .grid-item3{
+    #grid-container .grid-item3 {
         padding: 0 25px 0 15px;
         margin: 30px 5px 30px 5px;
     }
 
-    .titulo3{
+    .titulo3 {
         font-size: 16px;
     }
 
-    .titulotexto3{
+    .titulotexto3 {
         font-size: 10px;
     }
 
@@ -225,20 +235,20 @@
         padding: 0 15px 0 15px;
     }
 
-    .titulo4{
+    .titulo4 {
         font-size: 16px;
     }
 
-    .titulotexto4{
+    .titulotexto4 {
         font-size: 10px;
     }
-    
-    footer nav ul li{
+
+    footer nav ul li {
         margin: 3px;
         font-size: 15px;
     }
 
-    .redes{
+    .redes {
         flex-direction: column;
         margin-top: 5px;
     }
@@ -246,7 +256,7 @@
     .redes p {
         font-size: 12px;
     }
-    
+
     footer .redes div a img {
         width: 20px;
         height: 20px;
@@ -254,13 +264,13 @@
     }
 }
 
-@media screen and (max-width: 792px){
+@media screen and (max-width: 792px) {
 
-    #grid-container .grid-item1 .mensaje h2{
+    #grid-container .grid-item1 .mensaje h2 {
         font-size: 45px;
     }
 
-    #grid-container .grid-item1 .mensaje p{
+    #grid-container .grid-item1 .mensaje p {
         font-size: 12px;
     }
 
@@ -270,21 +280,21 @@
         padding: 0 15rem 0 15rem;
     }
 
-    #grid-container .grid-item2{
+    #grid-container .grid-item2 {
         padding: 0 15px 0 5px;
         margin: 0px 5px 80px 5px;
     }
 
-    .titulo2{
+    .titulo2 {
         font-size: 14px;
     }
 
-    #grid-container .grid-item3{
+    #grid-container .grid-item3 {
         padding: 0 5px 0 15px;
         margin: 0px 5px 80px 5px;
     }
 
-    .titulo3{
+    .titulo3 {
         font-size: 14px;
     }
 
@@ -293,19 +303,19 @@
         padding: 0 15px 0 5px;
     }
 
-    .titulo4{
+    .titulo4 {
         font-size: 14px;
     }
 
 }
 
-@media screen and (max-width: 745px){
+@media screen and (max-width: 745px) {
 
-    #grid-container .grid-item1 .mensaje h2{
+    #grid-container .grid-item1 .mensaje h2 {
         font-size: 40px;
     }
 
-    #grid-container .grid-item1 .mensaje p{
+    #grid-container .grid-item1 .mensaje p {
         font-size: 10px;
     }
 
@@ -326,7 +336,7 @@
     }
 }
 
-@media screen and (max-width: 704px){
+@media screen and (max-width: 704px) {
 
     header nav div a .logo {
         height: 9rem;
@@ -346,7 +356,8 @@
     header .bienvenidos {
         margin-top: 350px;
     }
-    header .bienvenidos h1{
+
+    header .bienvenidos h1 {
         font-size: 50px;
     }
 
@@ -386,7 +397,7 @@
     }
 }
 
-@media screen and (max-width: 649px){
+@media screen and (max-width: 649px) {
 
     #grid-container {
         grid-template-rows: 500px 250px 250px 250px;
@@ -451,9 +462,9 @@
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
 
-    #grid-container .grid-item1 .mensaje h2{
+    #grid-container .grid-item1 .mensaje h2 {
         padding: 0 3rem 0 3rem;
         margin: 10px 0 20px;
         font-size: 30px;
@@ -485,12 +496,12 @@
         padding: 0 5px 0 7px;
     }
 
-    #grid-container .grid-item4{
+    #grid-container .grid-item4 {
         padding: 0 7px 0 5px;
     }
 }
 
-@media screen and (max-width: 570px){
+@media screen and (max-width: 570px) {
 
     #grid-container .grid-item2 {
         margin: 12.5px 80px 12.5px 80px;
@@ -505,7 +516,7 @@
     }
 }
 
-@media screen and (max-width: 525px){
+@media screen and (max-width: 525px) {
 
     .titulo2 {
         font-size: 11px;
@@ -533,7 +544,7 @@
 }
 
 @media screen and (max-width: 466px) {
-    
+
     #grid-container .grid-item2 {
         margin: 12.5px 70px 12.5px 70px;
     }
@@ -574,26 +585,26 @@
         font-size: 10px;
     }
 
-    footer nav ul li{
+    footer nav ul li {
         font-size: 12px;
     }
 }
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 430px) {
 
     header .bienvenidos {
         margin-top: 390px;
     }
 
-    header .bienvenidos h1{
+    header .bienvenidos h1 {
         font-size: 45px;
     }
 
     #grid-container .grid-item1 .logomain {
         margin-left: 30%;
     }
-    
-    #grid-container .grid-item1 .mensaje h2{
+
+    #grid-container .grid-item1 .mensaje h2 {
         padding: 0 1rem 0 1rem;
         font-size: 28px;
     }
@@ -621,7 +632,7 @@
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
 
     header nav div a .logo {
         height: 8rem;
@@ -632,13 +643,13 @@
         margin-top: 400px;
     }
 
-    header .bienvenidos h1{
+    header .bienvenidos h1 {
         font-size: 40px;
     }
 
     #grid-container .grid-item1 .mensaje h2 {
         font-size: 25px;
-        padding: 0 0,3rem 0 0,3rem;
+        padding: 0 0, 3rem 0 0, 3rem;
     }
 
     #grid-container .grid-item1 .mensaje p {
@@ -661,11 +672,11 @@
         margin: 12.5px 30px 12.5px 30px;
     }
 
-    footer nav ul li{
+    footer nav ul li {
         font-size: 11px;
     }
 
-    footer .redes p{
+    footer .redes p {
         font-size: 10px;
     }
 
@@ -676,26 +687,307 @@
 
 }
 
-//! PAGINA CONTACTO
+//* PAGINA SENDEROS
 
-@media screen and (max-width: 1200px){
-    .flechas a img{
+@media screen and (max-width: 1250px) {
+    main #senderismo-main img {
+        height: 140px;
+        width: 140px;
+        margin: 100px 10px 0 10px;
+    }
+
+    #senderismo-main .region .region-h2 {
+        font-size: 55px;
+        padding: 0 40rem 0 2rem;
+    }
+
+    main #senderismo-main .region .region-p{
+        font-size: 15px;
+        padding: 0 50rem 0 2rem;
+    }
+
+    main #senderismo-main2 .container .image-list {
+        gap: 16px;
+    }
+
+    main #senderismo-main2 .container a img {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    header .seccion h1 {
+        font-size: 55px;
+    }
+
+    main #senderismo-main img {
+        height: 130px;
+        width: 130px;
+    }
+    
+    #senderismo-main .region .region-h2 {
+        font-size: 50px;
+        padding: 0 35rem 0 2rem;
+    }
+
+    main #senderismo-main .region .region-p{
+        padding: 0 40rem 0 2rem;
+    }
+
+    main #senderismo-main .region .btn {
+        font-size: 16px;
+        padding: 0.8rem 1.8rem;
+    }
+}
+
+@media screen and (max-width: 905px) {
+    main #senderismo-main img {
+        margin-top: 80px;
+    }
+    
+    #senderismo-main .region .region-h2 {
+        font-size: 45px;
+        padding: 0 30rem 0 2rem;
+    }
+
+    main #senderismo-main .region .region-p{
+        padding: 0 30rem 0 2rem;
+    }
+
+}
+
+@media screen and (max-width: 732px) {
+    header .seccion h1 {
+        font-size: 50px;
+    }
+
+    header .seccion a img {
+        width: 45px;
+        height: 45px;
+    }
+
+    main #senderismo-main img {
+        width: 120px;
+        height: 120px;
+        margin-top: 80px;
+    }
+    
+    #senderismo-main .region .region-h2 {
+        font-size: 40px;
+        padding: 0 25rem 0 2rem;
+    }
+
+    main #senderismo-main .region .region-p{
+        font-size: 12px;
+        padding: 0 25rem 0 2rem;
+    }
+
+    main #senderismo-main .region .btn {
+        font-size: 15px;
+        padding: 0.5rem 1.5rem;
+    }
+
+    main #senderismo-main2 h3 {
+        font-size: 50px;
+    }
+
+    main #senderismo-main2 p {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 632px) {
+    main #senderismo-main {
+        min-height: 80vh;
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: -35vh
+    }
+
+    main #senderismo-main img {
+        width: 95px;
+        height: 95px;
+        margin-top: 150px;
+    }
+    
+    #senderismo-main .region .region-h2 {
+        font-size: 20px;
+        padding: 0 20rem 0 2rem;
+    }
+
+    main #senderismo-main .region .region-p{
+        font-size: 9px;
+        padding: 0 20rem 0 2rem;
+    }
+
+    main #senderismo-main .region .btn {
+        font-size: 10px;
+        padding: 0.3rem 1.3rem;
+    }
+
+    main #senderismo-main2 h3 {
+        font-size: 40px;
+        margin-top: 0px;
+    }
+
+    main #senderismo-main2 p {
+        font-size: 18px;
+    }
+
+    main #senderismo-main2 .container a img {
+        width: 250px;
+        height: 275px;
+        object-fit: cover;
+    }
+    main #senderismo-main2 .container a p {
+        padding: 5px 25px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    header .seccion h1 {
+        font-size: 40px;
+    }
+
+    header .seccion a img {
+        width: 35px;
+        height: 35px;
+    }
+    
+    main #senderismo-main img {
+        width: 80px;
+        height: 80px;
+        margin-top: 160px;
+    }
+    #senderismo-main .region .region-h2 {
+        font-size: 20px;
+        padding: 0 15rem 0 1rem;
+    }
+
+    main #senderismo-main .region .region-p{
+        font-size: 9px;
+        padding: 0 18rem 0 1rem;
+    }
+
+    main #senderismo-main .region .btn {
+        font-size: 10px;
+        padding: 0.2rem 0.5rem;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main #senderismo-main img {
+        width: 50px;
+        height: 50px;
+        margin-top: 180px;
+    }
+    #senderismo-main .region .region-h2 {
+        font-size: 16px;
+        padding: 0 14rem 0 1rem;
+    }
+
+    main #senderismo-main .region .region-p{
+        font-size: 8px;
+        padding: 0 14rem 0 1rem;
+    }
+
+    main #senderismo-main .region .btn {
+        font-size: 5px;
+        padding: 0.1rem 0.3rem;
+    }
+
+    main #senderismo-main2 {
+        margin-top: -15vh;
+    }
+
+    main #senderismo-main2 h3 {
+        font-size: 30px;
+    }
+
+    main #senderismo-main2 p {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 399px) {
+    main #senderismo-main img {
+        width: 50px;
+        height: 50px;
+        margin-top: 185px;
+    }
+    #senderismo-main .region .region-h2 {
+        font-size: 14px;
+        padding: 0 12rem 0 1rem;
+    }
+
+    main #senderismo-main .region .region-p{
+        font-size: 8px;
+        padding: 0 12rem 0 1rem;
+    }
+
+    main #senderismo-main2 h3 {
+        font-size: 25px;
+    }
+
+    main #senderismo-main2 p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    main #senderismo-main img {
+        width: 45px;
+        height: 45px;
+        margin-top: 190px;
+        margin-left: 0.5rem;
+    }
+    #senderismo-main .region .region-h2 {
+        font-size: 12px;
+        padding: 0 12rem 0 0.5rem;
+    }
+
+    main #senderismo-main .region .region-p{
+        font-size: 7px;
+        padding: 0 12rem 0 0.5rem;
+    }
+
+    main #senderismo-main .region .btn{
+        margin-left: 0.5rem;
+    }
+}
+
+
+
+
+
+//* PAGINA ARTICULOS
+
+//* PAGINA NUTRICION
+
+//* PAGINA CONTACTO
+
+@media screen and (max-width: 1200px) {
+    .flechas a img {
         margin-top: 400px;
         width: 35px;
         height: 35px;
-        }
     }
+}
 
-@media screen and (max-width: 990px){
+@media screen and (max-width: 990px) {
 
-    .flechas a img{
+    .flechas a img {
         margin-top: 400px;
         width: 35px;
         height: 35px;
-        }
     }
+}
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 850px) {
 
     .formulario {
         width: 600px;
@@ -703,25 +995,25 @@
     }
 }
 
-@media screen and (max-width: 630px){
+@media screen and (max-width: 630px) {
 
     .formulario {
         width: 500px;
         height: 700px;
     }
 
-    .formulario input{
+    .formulario input {
         width: 300px;
     }
-    
-    .formulario textarea{
+
+    .formulario textarea {
         width: 300px;
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
 
-    .flechas a img{
+    .flechas a img {
         margin-top: 550px;
     }
 
@@ -730,7 +1022,7 @@
         height: 600px;
     }
 
-    .formulario input{
+    .formulario input {
         width: 300px;
         height: 40px;
     }
@@ -740,9 +1032,9 @@
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
 
-    .flechas a img{
+    .flechas a img {
         margin-top: 550px;
     }
 
@@ -755,7 +1047,7 @@
         font-size: 35px;
     }
 
-    .formulario input{
+    .formulario input {
         width: 250px;
         height: 40px;
     }
