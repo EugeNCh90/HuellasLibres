@@ -701,7 +701,7 @@
         padding: 0 40rem 0 2rem;
     }
 
-    main #senderismo-main .region .region-p{
+    main #senderismo-main .region .region-p {
         font-size: 15px;
         padding: 0 50rem 0 2rem;
     }
@@ -724,13 +724,13 @@
         height: 130px;
         width: 130px;
     }
-    
+
     #senderismo-main .region .region-h2 {
         font-size: 50px;
         padding: 0 35rem 0 2rem;
     }
 
-    main #senderismo-main .region .region-p{
+    main #senderismo-main .region .region-p {
         padding: 0 40rem 0 2rem;
     }
 
@@ -744,13 +744,13 @@
     main #senderismo-main img {
         margin-top: 80px;
     }
-    
+
     #senderismo-main .region .region-h2 {
         font-size: 45px;
         padding: 0 30rem 0 2rem;
     }
 
-    main #senderismo-main .region .region-p{
+    main #senderismo-main .region .region-p {
         padding: 0 30rem 0 2rem;
     }
 
@@ -771,13 +771,13 @@
         height: 120px;
         margin-top: 80px;
     }
-    
+
     #senderismo-main .region .region-h2 {
         font-size: 40px;
         padding: 0 25rem 0 2rem;
     }
 
-    main #senderismo-main .region .region-p{
+    main #senderismo-main .region .region-p {
         font-size: 12px;
         padding: 0 25rem 0 2rem;
     }
@@ -811,13 +811,13 @@
         height: 95px;
         margin-top: 150px;
     }
-    
+
     #senderismo-main .region .region-h2 {
         font-size: 20px;
         padding: 0 20rem 0 2rem;
     }
 
-    main #senderismo-main .region .region-p{
+    main #senderismo-main .region .region-p {
         font-size: 9px;
         padding: 0 20rem 0 2rem;
     }
@@ -841,6 +841,7 @@
         height: 275px;
         object-fit: cover;
     }
+
     main #senderismo-main2 .container a p {
         padding: 5px 25px;
     }
@@ -855,18 +856,19 @@
         width: 35px;
         height: 35px;
     }
-    
+
     main #senderismo-main img {
         width: 80px;
         height: 80px;
         margin-top: 160px;
     }
+
     #senderismo-main .region .region-h2 {
         font-size: 20px;
-        padding: 0 15rem 0 1rem;
+        padding: 0 16rem 0 1rem;
     }
 
-    main #senderismo-main .region .region-p{
+    main #senderismo-main .region .region-p {
         font-size: 9px;
         padding: 0 18rem 0 1rem;
     }
@@ -878,18 +880,19 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 496px) {
     main #senderismo-main img {
         width: 50px;
         height: 50px;
         margin-top: 180px;
     }
+
     #senderismo-main .region .region-h2 {
         font-size: 16px;
         padding: 0 14rem 0 1rem;
     }
 
-    main #senderismo-main .region .region-p{
+    main #senderismo-main .region .region-p {
         font-size: 8px;
         padding: 0 14rem 0 1rem;
     }
@@ -919,12 +922,13 @@
         height: 50px;
         margin-top: 185px;
     }
+
     #senderismo-main .region .region-h2 {
         font-size: 14px;
         padding: 0 12rem 0 1rem;
     }
 
-    main #senderismo-main .region .region-p{
+    main #senderismo-main .region .region-p {
         font-size: 8px;
         padding: 0 12rem 0 1rem;
     }
@@ -945,115 +949,703 @@
         margin-top: 190px;
         margin-left: 0.5rem;
     }
+
     #senderismo-main .region .region-h2 {
         font-size: 12px;
         padding: 0 12rem 0 0.5rem;
     }
 
-    main #senderismo-main .region .region-p{
+    main #senderismo-main .region .region-p {
         font-size: 7px;
         padding: 0 12rem 0 0.5rem;
     }
 
-    main #senderismo-main .region .btn{
+    main #senderismo-main .region .btn {
         margin-left: 0.5rem;
     }
 }
 
 
-
-
-
 //* PAGINA ARTICULOS
+
+@media screen and (max-width: 1065px) {
+    main #articulos-main .copete {
+        margin: 0px 100px;
+    }
+}
+
+@media screen and (max-width: 932px) {
+
+    main #articulos-main #grid-container1 .grid-item1a img {
+        width: 800px !important;
+        height: 250px !important;
+        object-position: 80% 20%;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.504);
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 871px) {
+    main #articulos-main #grid-container1 .grid-item1a img {
+        width: 740px !important;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    main #articulos-main #grid-container1 .grid-item1a img {
+        width: 690px !important;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    main #articulos-main #grid-container1 .grid-item1a img {
+        width: 640px !important;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    main #articulos-main #grid-container1 .grid-item1a img {
+        width: 590px !important;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    main #articulos-main #grid-container1 .grid-item1a img {
+        width: 540px !important;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    main #articulos-main #grid-container1 .grid-item1a img {
+        width: 490px !important;
+    }
+
+    #grid-container1 .grid-item2a h3 {
+        font-size: 24px !important;
+    }
+
+    #grid-container1 .grid-item2a p {
+        font-size: 12px !important;
+    }
+
+    .recomendamos h3 {
+        font-size: 25px !important;
+    }
+
+    .nota-bastones h4 {
+        font-size: 20px;
+    }
+
+    .nota-bastones p {
+        font-size: 14px;
+    }
+
+    .nota-descubre h4 {
+        font-size: 20px;
+    }
+
+    .nota-descubre p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    #grid-container1 {
+        margin: 40px !important;
+    }
+
+    main #articulos-main .copete {
+        margin: 0px 50px;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    main #articulos-main #grid-container1 .grid-item1a img {
+        width: 430px !important;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    main #articulos-main #grid-container1 .grid-item1a img {
+        width: 390px !important;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    main #articulos-main .copete {
+        margin: 0px 30px;
+        font-size: 14px;
+    }
+
+    #grid-container1 .grid-item1a img {
+        width: 350px !important;
+    }
+
+    .recomendamos h3 {
+        font-size: 20px !important;
+    }
+
+    .nota-bastones h4 {
+        font-size: 18px;
+    }
+
+    .nota-bastones p {
+        font-size: 12px;
+    }
+
+    .nota-descubre h4 {
+        font-size: 18px;
+    }
+
+    .nota-descubre p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 452px) {
+    main #articulos-main #grid-container1 .grid-item1a img {
+        width: 340px !important;
+    }
+}
+
+@media screen and (max-width: 423px) {
+    main #articulos-main .copete {
+        margin: 0px 20px;
+        font-size: 12px;
+    }
+
+    #grid-container1 .grid-item2a h3 {
+        font-size: 22px !important;
+    }
+
+    .nota-bastones h4 {
+        font-size: 16px;
+    }
+
+    .nota-bastones p {
+        font-size: 10px;
+    }
+
+    .nota-descubre h4 {
+        font-size: 16px;
+    }
+
+    .nota-descubre p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    main #articulos-main #grid-container1 .grid-item1a img {
+        width: 300px !important;
+    }
+}
+
+@media screen and (max-width: 363px) {
+
+    #grid-container1 .grid-item2a h3 {
+        font-size: 20px !important;
+    }
+
+    #grid-container1 .grid-item2a p {
+        font-size: 12px;
+    }
+
+    .nota-bastones h4 {
+        font-size: 14px;
+    }
+
+    .nota-bastones p {
+        font-size: 10px;
+    }
+
+    .nota-descubre h4 {
+        font-size: 14px;
+    }
+
+    .nota-descubre p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    main #articulos-main #grid-container1 .grid-item1a img {
+        width: 260px !important;
+    }
+}
 
 //* PAGINA NUTRICION
 
+@media screen and (max-width: 1065px) {
+    main #nutricion-main .copete {
+        margin: 0px 100px;
+    }
+}
+
+@media screen and (max-width: 932px) {
+
+    #grid-container1 .grid-item1a img {
+        width: 800px !important;
+        height: 250px !important;
+        object-position: 90% 10%;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.504);
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 872px) {
+    main #nutricion-main #grid-container1 .grid-item1a img {
+        width: 750px !important;
+    }
+}
+
+@media screen and (max-width: 821px) {
+    main #nutricion-main #grid-container1 .grid-item1a img {
+        width: 700px !important;
+    }
+}
+
+@media screen and (max-width: 772px) {
+    main #nutricion-main #grid-container1 .grid-item1a img {
+        width: 650px !important;
+    }
+}
+
+@media screen and (max-width: 723px) {
+    main #nutricion-main #grid-container1 .grid-item1a img {
+        width: 600px !important;
+    }
+}
+
+@media screen and (max-width: 679px) {
+    main #nutricion-main #grid-container1 .grid-item1a img {
+        width: 530px !important;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    main #nutricion-main #grid-container1 .grid-item1a img {
+        width: 490px !important;
+    }
+
+    #grid-container1 .grid-item2a h3 {
+        font-size: 24px !important;
+    }
+
+    #grid-container1 .grid-item2a p {
+        font-size: 12px !important;
+    }
+
+    .recomendamos h3 {
+        font-size: 25px !important;
+    }
+
+    .nota-enforma h4 {
+        font-size: 20px;
+    }
+
+    .nota-enforma p {
+        font-size: 14px;
+    }
+
+    .nota-auxilios h4 {
+        font-size: 20px;
+    }
+
+    .nota-auxilios p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    #grid-container1 {
+        margin: 40px !important;
+    }
+
+    main #nutricion-main .copete {
+        margin: 0px 50px;
+        font-size: 14px;
+    }
+
+    main #nutricion-main #grid-container1 .grid-item1a img {
+        width: 400px !important;
+    }
+}
+
+@media screen and (max-width: 461px) {
+    main #nutricion-main .copete {
+        margin: 0px 30px;
+        font-size: 14px;
+    }
+
+    main #nutricion-main #grid-container1 .grid-item1a img {
+        width: 350px !important;
+    }
+
+    .recomendamos h3 {
+        font-size: 20px !important;
+    }
+
+    .nota-enforma h4 {
+        font-size: 18px;
+    }
+
+    .nota-enforma p {
+        font-size: 12px;
+    }
+
+    .nota-auxilios h4 {
+        font-size: 18px;
+    }
+
+    .nota-auxilios p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    main #nutricion-main .copete {
+        margin: 0px 20px;
+        font-size: 12px;
+    }
+
+    main #nutricion-main #grid-container1 .grid-item1a img {
+        width: 300px !important;
+    }
+
+    #grid-container1 .grid-item2a h3 {
+        font-size: 22px !important;
+    }
+
+    .nota-enforma h4 {
+        font-size: 16px;
+    }
+
+    .nota-enforma p {
+        font-size: 10px;
+    }
+
+    .nota-auxilios h4 {
+        font-size: 16px;
+    }
+
+    .nota-auxilios p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 363px) {
+    main #nutricion-main #grid-container1 .grid-item1a img {
+        width: 250px !important;
+    }
+
+    #grid-container1 .grid-item2a h3 {
+        font-size: 20px !important;
+    }
+
+    #grid-container1 .grid-item2a p {
+        font-size: 12px;
+    }
+
+    .nota-enforma h4 {
+        font-size: 14px;
+    }
+
+    .nota-enforma p {
+        font-size: 10px;
+    }
+
+    .nota-auxilios h4 {
+        font-size: 14px;
+    }
+
+    .nota-auxilios p {
+        font-size: 10px;
+    }
+}
+
+
 //* PAGINA CONTACTO
 
+@media screen and (max-width: 1250px) {
+    main #contacto-main {
+        background-position: center top;
+        background-size: cover;
+        margin-top: -20vh;
+    }
+
+    main #contacto-main img {
+        margin: 120px 10px 0 220px;
+    }
+
+    main #contacto-main p {
+        margin-left: 80px;
+        margin-right: 700px;
+    }
+
+    main #contacto-main .formulario {
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+    main #contacto-main .mail-huellas {
+        margin-left: 80px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
-    .flechas a img {
-        margin-top: 400px;
-        width: 35px;
-        height: 35px;
+    main #contacto-main img {
+        margin: 120px 0 0 10px;
+    }
+
+    main #contacto-main p {
+        margin-left: 30px;
+        margin-right: 600px;
+        text-align: left;
+    }
+
+    main #contacto-main .formulario {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    main #contacto-main .mail-huellas {
+        margin-left: 30px;
     }
 }
 
-@media screen and (max-width: 990px) {
-
-    .flechas a img {
-        margin-top: 400px;
-        width: 35px;
-        height: 35px;
-    }
-}
-
-@media screen and (max-width: 850px) {
-
-    .formulario {
-        width: 600px;
-        height: 700px;
-    }
-}
-
-@media screen and (max-width: 630px) {
-
-    .formulario {
-        width: 500px;
-        height: 700px;
+@media screen and (max-width: 900px) {
+    main #contacto-main img {
+        height: 120px;
+        width: 120px;
     }
 
-    .formulario input {
-        width: 300px;
+    main #contacto-main p {
+        margin-right: 500px;
+        font-size: 14px;
     }
 
-    .formulario textarea {
-        width: 300px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-
-    .flechas a img {
-        margin-top: 550px;
-    }
-
-    .formulario {
-        width: 400px;
-        height: 600px;
-    }
-
-    .formulario input {
-        width: 300px;
+    main #contacto-main .formulario div input {
+        width: 350px;
         height: 40px;
     }
 
-    .formulario textarea {
-        margin: 8px 0 30px;
+    main #contacto-main .formulario div textarea {
+        width: 350px;
+    }
+
+    main #contacto-main .botones-form .resetear {
+        width: 150px !important;
+    }
+
+    main #contacto-main .botones-form .enviar {
+        width: 150px !important;
+    }
+
+    main #contacto-main .mail-huellas {
+        margin-left: 30px;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 780px) {
 
-    .flechas a img {
-        margin-top: 550px;
+    main #contacto-main p {
+        margin-right: 450px;
+        font-size: 14px;
     }
 
-    .formulario {
+    main #contacto-main .formulario div input {
         width: 300px;
-        height: 600px;
     }
 
-    .h2-contacto {
-        font-size: 35px;
+    main #contacto-main .formulario div textarea {
+        width: 300px;
     }
 
-    .formulario input {
+    main #contacto-main .botones-form .resetear {
+        width: 100px !important;
+        text-align: center;
+    }
+
+    main #contacto-main .botones-form .enviar {
+        width: 100px !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    main #contacto-main p {
+        margin-left: 15px;
+        margin-right: 370px;
+        font-size: 14px;
+    }
+
+    main #contacto-main .formulario {
+        margin-left: 15px;
+        font-size: 14px;
+    }
+
+    main #contacto-main .formulario .botones-form {
+        margin-bottom: 30px;
+    }
+
+    main #contacto-main .mail-huellas {
+        margin-left: 15px;
+        margin-top: 3px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    main #contacto-main {
+        min-height: 100vh;
+        background-position: center top;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    main #contacto-main img {
+        height: 80px;
+        width: 80px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    main #contacto-main p {
+        font-size: 12px;
+        margin-right: 330px;
+        text-align: center;
+    }
+
+    main #contacto-main .formulario {
+        background-image: url(../../img/filter-bg.png);
+        background-repeat: space;
+        background-position: center center;
+        background-size: 100% 100%;
+        width: auto;
+        margin-left: 0;
+    }
+
+    main #contacto-main .formulario div input {
+        margin-left: 150px;
+    }
+
+    main #contacto-main .formulario div textarea {
+        margin-left: 150px;
+    }
+
+    .botones-form {
+        margin-left: 100px;
+    }
+
+    main #contacto-main .mail-huellas {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+
+    main #contacto-main p {
+        font-size: 10px;
+        margin-right: 290px;
+    }
+
+    main #contacto-main .formulario div input {
+        margin-left: 120px;
+        font-size: 10px;
+    }
+
+    main #contacto-main .formulario div textarea {
+        margin-left: 120px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 509px) {
+
+    main #contacto-main img {
+        height: 60px;
+        width: 60px;
+    }
+
+    main #contacto-main p {
+        font-size: 9px;
+        margin-right: 250px;
+    }
+
+    main #contacto-main .formulario div input {
         width: 250px;
+    }
+
+    main #contacto-main .formulario div textarea {
+        width: 250px;
+    }
+
+    main #contacto-main .botones-form .resetear {
+        margin-left: 40px;
+    }
+
+    main #contacto-main .botones-form .enviar {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    main #contacto-main p {
+        font-size: 8px;
+        margin-right: 230px;
+        text-align: left;
+    }
+
+    main #contacto-main .formulario div input {
+        width: 230px;
+        margin-left: 20px;
+    }
+
+    main #contacto-main .formulario div textarea {
+        width: 230px;
+        margin-left: 20px;
+    }
+
+    main #contacto-main .botones-form .resetear {
+        margin-left: 0px;
+    }
+
+    main #contacto-main .botones-form {
+        margin-left: 20px;
+    }
+
+    main #contacto-main .botones-form .enviar {
+        margin-left: 10px;
+    }
+
+    main #contacto-main .mail-huellas {
+        margin-left: 20px;
+        margin-right: 100px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 406px) {
+
+    main #contacto-main img {
+        width: 50px;
+        height: 50px;
+    }
+
+    main #contacto-main p {
+        font-size: 7px;
+        margin-right: 185px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    main #contacto-main img {
+        width: 40px;
         height: 40px;
-    }
-
-    .formulario textarea {
-        width: 250px;
-        margin: 8px 0 20px;
     }
 }
