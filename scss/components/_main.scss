@@ -348,7 +348,9 @@ main #articulos-main {
             }
 
             p {
-                text-align: center;
+                text-align: left;
+                overflow: hidden;
+                text-overflow: ellipsis;
             }
 
         }

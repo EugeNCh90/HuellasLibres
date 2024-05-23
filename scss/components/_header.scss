@@ -28,7 +28,13 @@ header {
                             text-align: center;
                             font-weight: 350;
                             margin: 30px;
+
+                            &:hover {
+                                text-shadow: rgb(3, 3, 65) 1px 1px 5px;
+                            }
                         }
+
+
                     }
                 }
             }
@@ -40,6 +46,9 @@ header {
         text-align: center;
         width: 100%;
         margin-top: 350px;
+        opacity: 0;
+        transform: translateY(-20px);
+        animation: fadeIn 1s ease-out forwards;
 
         h1 {
             font-size: 75px;
@@ -78,6 +87,13 @@ header {
             }
         }
     }
+
+    @keyframes fadeIn {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
 }
 
 
@@ -89,6 +105,9 @@ header {
         text-align: center;
         width: 100%;
         margin-top: 350px;
+        opacity: 0;
+        transform: translateY(-20px);
+        animation: fadeIn 1s ease-out forwards;
 
         h1 {
             font-size: 65px;
@@ -126,6 +145,13 @@ header {
                     animation: none;
                 }
             }
+        }
+    }
+
+    @keyframes fadeIn {
+        to {
+            opacity: 1;
+            transform: translateY(0);
         }
     }
 }

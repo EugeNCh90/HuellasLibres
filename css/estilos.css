@@ -39,11 +39,16 @@ header {
     text-align: center;
     font-weight: 350;
     margin: 30px; }
+    header nav div div ul li a:hover {
+      text-shadow: #030341 1px 1px 5px; }
   header .bienvenidos {
     position: absolute;
     text-align: center;
     width: 100%;
-    margin-top: 350px; }
+    margin-top: 350px;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1s ease-out forwards; }
     header .bienvenidos h1 {
       font-size: 75px;
       font-weight: 700;
@@ -68,11 +73,19 @@ header {
       header .bienvenidos a img:active {
         animation: none; }
 
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0); } }
+
 header .seccion {
   position: absolute;
   text-align: center;
   width: 100%;
-  margin-top: 350px; }
+  margin-top: 350px;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeIn 1s ease-out forwards; }
   header .seccion h1 {
     font-size: 65px;
     font-weight: 700;
@@ -97,6 +110,11 @@ header .seccion {
       animation-play-state: paused; }
     header .seccion a img:active {
       animation: none; }
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0); } }
 
 #grid-container {
   background-image: url(../../img/filter-bg.png);
@@ -352,7 +370,9 @@ main #articulos-main {
       main #articulos-main .notas .nota-bastones h4 {
         text-align: center; }
       main #articulos-main .notas .nota-bastones p {
-        text-align: center; }
+        text-align: left;
+        overflow: hidden;
+        text-overflow: ellipsis; }
     main #articulos-main .notas .nota-descubre {
       flex: 1;
       padding: 20px;
